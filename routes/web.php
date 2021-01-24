@@ -11,6 +11,54 @@
 |
 */
 
+use App\Models\abonnement\Abonner;
 Route::get('/', function () {
-    return view('welcome');
+    return view('layout/layout');
 });
+
+/*apprendre à ajouter des variable dans html*/
+Route::get('/hello', function () {
+    $nom='Georges';
+    $prenom='Nambinina';
+    return view('pages/hello_world')->with('nom',$nom)->with('prenom',$prenom);
+});// première méthode pour ajouter des variables dans html
+
+Route::get('/help', function () {
+    $nom='Georges';
+    $prenom='Nambinina';
+    return view('pages/hello_world')->with([
+        'nom'=>$nom,
+        'prenom'=>$prenom
+    ]);
+});// deuxième méthode pour ajouter des variables dans html
+
+Route::get('/about', function () {
+   $data=[
+      'nom'=>'Georges',
+      'prenom'=>'Nambinina'
+   ];
+    return view('pages/hello_world',$data);
+});// troisième méthode pour ajouter des variables dans html
+
+
+/**
+*
+ ************C'est ici que je vais ecrire mes routes sur l'abonnement*/
+
+
+Route::get('abonnement-emails','WEB\Abonnement\AbonnementController@getFormulaire')->name('formulaire_abonner_get');
+Route::post('abonnement-emails','WEB\Abonnement\AbonnementController@postFormulaire')->name('formulaire_abonner_post');
+
+Route::post('abonnement-emails-ok',function(){
+    /**
+     * Ceci est un teste 
+     */
+    $emaiils=new Abonner();//Appel de nos model
+    $emaiils->emails='ali78aaa@aa.fr';/* =$emails_requests->input('emailles'); */
+    return $emaiils->save();
+});
+/* Route::get('abonnement-emails-valider',[
+                                            'uses'=>'WEB\Abonnement\AbonnementController@postFormulaire',
+                                            'as'=>'formulaire_abonner_post'
+                                        ]); */
+//FIN DE ROUTE DE L'ABONNEMENT
