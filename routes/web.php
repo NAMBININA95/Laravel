@@ -47,7 +47,7 @@ Route::get('/about', function () {
 
 
 Route::get('abonnement-emails','WEB\Abonnement\AbonnementController@getFormulaire')->name('formulaire_abonner_get');
-Route::post('abonnement-emails','WEB\Abonnement\AbonnementController@postFormulaire')->name('formulaire_abonner_post');
+Route::post('abonnement-emails','WEB\Abonnement\AbonnementController@postFormulaire4')->name('formulaire_abonner_post');
 
 Route::post('abonnement-emails-ok',function(){
     /**
