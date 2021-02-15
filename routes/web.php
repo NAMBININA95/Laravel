@@ -11,7 +11,10 @@
 |
 */
 
-use App\Models\abonnement\Abonner;
+//use App\Models\abonnement\Abonner;
+//use Illuminate\Routing\Route;
+//use Illuminate\Support\Facades\Route;
+
 Route::get('/', function () {
     return view('layout/layout');
 });
@@ -62,3 +65,10 @@ Route::post('abonnement-emails-ok',function(){
                                             'as'=>'formulaire_abonner_post'
                                         ]); */
 //FIN DE ROUTE DE L'ABONNEMENT
+
+
+/**
+ * API sur laravel
+ */
+
+ Route::resource('users-teste', 'API/UserController');
