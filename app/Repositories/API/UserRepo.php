@@ -14,7 +14,7 @@ class UserRepo{
     {
             $user->name=$inputs['name'];
             $user->email=$inputs['email'];
-            $user->admin= isset($inputs['admin']);
+            /* $user->admin= isset($inputs['admin']); */
             $user->save();
     }
 

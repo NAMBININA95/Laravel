@@ -27,7 +27,8 @@ class UserCreateRequest extends FormRequest
             //
             'name'=>'required|max:255|unique:users',
             'email'=>'required|email|unique:users',//unique:table,column,except,id
-            'password'=>'required|confirmed|min:6'
+            'password'=>'required|min:6|confirmed',
+            'password_confirmation'=>'required'
         ];
     }
 }

@@ -71,4 +71,4 @@ Route::post('abonnement-emails-ok',function(){
  * API sur laravel
  */
 
- Route::resource('users-teste', 'API/UserController');
+ Route::resource('users-teste', 'API\UserController');

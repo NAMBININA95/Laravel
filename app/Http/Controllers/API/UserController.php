@@ -8,6 +8,7 @@ use App\Http\Controllers\API\UsersController;
 use App\Http\Requests\api\UserCreateRequest;
 use App\Http\Requests\api\UserUpdateRequest;
 use App\Repositories\API\UserRepo;
+use App\User;
 
 class UserController extends Controller
 {
@@ -24,12 +25,20 @@ class UserController extends Controller
     }
 
 
-    public function index()
+    public function index(/* User $Usr */)
     {
         //
-        $users=$this->usersRepo->getPaginate($this->nbrePerPage);
-        $links=$users->render();
-        return view('API/index',compact('users','links'));
+       
+       //Mandea code io fa mijery code source hafa koa
+         $users=$this->usersRepo->getPaginate($this->nbrePerPage);
+         $links=$users->render();
+         return view('API/index',compact('users','links'));
+
+       /* 
+       *Mandea io code io 
+        $users = User::latest()->paginate(5);
+        return view('API.index',compact('users'))
+            ->with('i', (request()->input('page', 1) - 1) * 5); */
     }
 
     /**
@@ -53,7 +62,8 @@ class UserController extends Controller
     {
         //
         $user=$this->usersRepo->store($userReq->all());
-        return redirect('API/user')->withOK("L'utilisateur ".$user->name." a été enregistrer .. ");
+        return redirect()->route('users-teste.index')->with('success','Votre donnée : '.$user->name.' a été enregistrer !!!!');
+       /*  return redirect('API/index')->with('success',"L'utilisateur ".$user->name." a été enregistrer .. "); */
     }
 
     /**
@@ -90,9 +100,13 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(/* Request $request */ UserUpdateRequest $userReq, $id)
     {
         //
+        $this->usersRepo->update($id,$userReq->all());
+        return redirect()->route('users-teste.index')->with('success','Votre donnée : '.$userReq->name.' a été modifier !!!!');
+        /* return redirect('API/user')->withOk("L'utilisateur a été ".$userReq->input('name')." a été modifié."); */
+
     }
 
     /**
@@ -104,5 +118,7 @@ class UserController extends Controller
     public function destroy($id)
     {
         //
+       $this->usersRepo->destroy($id);
+       return redirect()->route('users-teste.index')->with('success','Votre donnée a été supprimer !!!!');
     }
 }
