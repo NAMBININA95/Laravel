@@ -9,10 +9,11 @@
         <div class="panel-body">
             <p>Nom : {{ $user->name }}</p>
             <p>Email : {{ $user->email }}</p>
-           {{--  @if 
-            ($users-teste->admin==1) 
+            @if($user->admin==1)
                 Administrateur
-             @endif --}}
+            @else
+                Utilisateur
+            @endif
 
         </div>
         <a href="javascript:history.back()" class="btn btn-primary">

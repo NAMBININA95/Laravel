@@ -36,7 +36,7 @@
                        
                     </div> 
 
-                  {{--   <div class=" form-group">
+                    <div class=" form-group">
 
                         <div class="checkbox">
                             <label>
@@ -44,7 +44,7 @@
                                 Administrateur
                             </label>
                         </div>
-                    </div> --}}
+                    </div>
 
 
 
@@ -60,9 +60,12 @@
 
 
         </div>
-        <a href="javascript:history.back() " class="btn btn-primary ">
-            <span class="glyphicon glyphicon-circle-arrow-left "></span>Retour
-        </a>
+       
     </div>
+
+    <a href="javascript:history.back() " class="btn btn-primary ">
+        <span class="glyphicon glyphicon-circle-arrow-left "></span>Retour
+    </a>
+    
 </div>
 @endsection

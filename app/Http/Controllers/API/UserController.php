@@ -31,7 +31,8 @@ class UserController extends Controller
        
        //Mandea code io fa mijery code source hafa koa
          $users=$this->usersRepo->getPaginate($this->nbrePerPage);
-         $links=$users->render();
+         //$links=$users->render();
+         $links=$users->setPath('')->render();
          return view('API/index',compact('users','links'));
 
        /* 
@@ -61,6 +62,7 @@ class UserController extends Controller
     public function store(/* Request $request,  */UserCreateRequest $userReq)
     {
         //
+        $this->setAdmin($userReq);
         $user=$this->usersRepo->store($userReq->all());
         return redirect()->route('users-teste.index')->with('success','Votre donnée : '.$user->name.' a été enregistrer !!!!');
        /*  return redirect('API/index')->with('success',"L'utilisateur ".$user->name." a été enregistrer .. "); */
@@ -103,6 +105,7 @@ class UserController extends Controller
     public function update(/* Request $request */ UserUpdateRequest $userReq, $id)
     {
         //
+        $this->setAdmin($userReq);
         $this->usersRepo->update($id,$userReq->all());
         return redirect()->route('users-teste.index')->with('success','Votre donnée : '.$userReq->name.' a été modifier !!!!');
         /* return redirect('API/user')->withOk("L'utilisateur a été ".$userReq->input('name')." a été modifié."); */
@@ -120,5 +123,18 @@ class UserController extends Controller
         //
        $this->usersRepo->destroy($id);
        return redirect()->route('users-teste.index')->with('success','Votre donnée a été supprimer !!!!');
+    }
+
+    private function setAdmin(Request $request){
+
+        return $request->input('admin');
+       /*  if($request->has('admin')==1){
+            $request->merge(['admin'=>0]);
+        } */ 
+       /*  if(!$request->has('admin')){
+            $request->merge(['admin'=>0]);
+        } */
+
+        //$user->admin= isset($inputs['admin']);
     }
 }

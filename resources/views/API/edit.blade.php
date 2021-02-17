@@ -28,15 +28,22 @@
                         <small class="help-block">:message</small>') !!}
                     </div>
 
-                    <!--   <div class=" form-group">
+                    <div class=" form-group">
 
                         <div class="checkbox">
                             <label>
-                                <input type="checkbox" name="admin" value=1 >
-                                Administrateur
+                                {{-- <input type="checkbox" name="admin" value={{ old('admin') }} @if(old('admin',1)) 1 @else 0 @endif > --}}
+                                
+                                @if ($user->admin==1)
+                                        <input type="checkbox" name="admin" value={{ old('admin') }} @if(old('admin',1)) 1 @else 0 @endif checked>
+                                        Administrateur      
+                                @else
+                                        <input type="checkbox" name="admin" value={{ old('admin') }} @if(old('admin',1)) 1 @else 0 @endif >
+                                        Administrateur
+                                @endif
                             </label>
                         </div>
-                    </div> -->
+                    </div> 
 
 
 
@@ -52,9 +59,10 @@
 
 
         </div>
-        <a href="javascript:history.back() " class="btn btn-primary ">
-            <span class="glyphicon glyphicon-circle-arrow-left "></span>Retour
-        </a>
+       
     </div>
+    <a href="javascript:history.back() " class="btn btn-primary ">
+        <span class="glyphicon glyphicon-circle-arrow-left "></span>Retour
+    </a>
 </div>
 @endsection
