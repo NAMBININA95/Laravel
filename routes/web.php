@@ -72,3 +72,6 @@ Route::post('abonnement-emails-ok',function(){
  */
 
  Route::resource('users-teste', 'API\UserController');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

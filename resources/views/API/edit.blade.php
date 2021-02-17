@@ -32,15 +32,31 @@
 
                         <div class="checkbox">
                             <label>
-                                {{-- <input type="checkbox" name="admin" value={{ old('admin') }} @if(old('admin',1)) 1 @else 0 @endif > --}}
-                                
-                                @if ($user->admin==1)
-                                        <input type="checkbox" name="admin" value={{ old('admin') }} @if(old('admin',1)) 1 @else 0 @endif checked>
+
+
+                                <input type="checkbox" name="admin" value={{ old('admin', $user->admin) }} {{ $user->admin ? 'checked':'' }} >
+                                Administrateur
+
+                               {{--  <input type="checkbox" name="admin" 
+                                        
+                                        value={{ old('admin') }} 
+                                        @if(old('admin',1)) 
+                                            1 
+            
+                                        @endif
+                                        
+                                        @if($user->admin==1) 
+                                            checked
+    
+                                        @endif >
+                                Administrateur --}}
+                                {{-- @if ($user->admin==1)
+                                        <input type="checkbox" name="admin" value={{ old('admin') }}  @if(old('admin',true)) 1 @endif checked>
                                         Administrateur      
                                 @else
-                                        <input type="checkbox" name="admin" value={{ old('admin') }} @if(old('admin',1)) 1 @else 0 @endif >
+                                        <input type="checkbox" name="admin" value={{ old('admin') }} @if(old('admin',false)) 0 @endif >
                                         Administrateur
-                                @endif
+                                @endif --}}
                             </label>
                         </div>
                     </div> 

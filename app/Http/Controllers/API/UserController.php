@@ -102,11 +102,12 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(/* Request $request */ UserUpdateRequest $userReq, $id)
+    public function update( Request $request , UserUpdateRequest $userReq, $id)
     {
         //
         $this->setAdmin($userReq);
-        $this->usersRepo->update($id,$userReq->all());
+        //$this->usersRepo->update($id,$userReq->all());
+        $this->usersRepo->update($id,$userReq->except('admin')+['admin'=>$request->has('admin')]);
         return redirect()->route('users-teste.index')->with('success','Votre donnée : '.$userReq->name.' a été modifier !!!!');
         /* return redirect('API/user')->withOk("L'utilisateur a été ".$userReq->input('name')." a été modifié."); */
 
