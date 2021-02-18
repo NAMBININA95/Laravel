@@ -71,7 +71,7 @@ Route::post('abonnement-emails-ok',function(){
  * API sur laravel
  */
 
- Route::resource('users-teste', 'API\UserController');
+Route::resource('users-teste', 'API\UserController');
+Route::resource('post', 'API\PostsController',['except'=>['show','edit','update'/* ,'create','store' */]]);
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');

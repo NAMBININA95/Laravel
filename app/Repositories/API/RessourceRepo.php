@@ -14,7 +14,14 @@ class RessourceRepo{
 
     public function getPaginate($n)
     {
-           return $this->models->paginate($n);
+            //avec filtre
+           return $this->models->with('user')->orderBy('posts.created_at','desc')->paginate($n);
+    }
+    
+    public function getPaginate2($n)
+    {
+        //sans filtre   
+        return $this->models->paginate($n);
     }
 
     public function store(Array $inputs)
