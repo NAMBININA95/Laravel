@@ -73,5 +73,6 @@ Route::post('abonnement-emails-ok',function(){
 
 Route::resource('users-teste', 'API\UserController');
 Route::resource('post', 'API\PostsController',['except'=>['show','edit','update'/* ,'create','store' */]]);
+Route::get('post/tag/{tag}','PostsController@indexTag')->name('recherche');
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');

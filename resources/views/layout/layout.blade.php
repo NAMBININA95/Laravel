@@ -15,6 +15,7 @@
 
     {{-- @yield('formulaire') --}}
     @yield('contenu')
+
     {{-- @yield('Resultats') --}}
    
 

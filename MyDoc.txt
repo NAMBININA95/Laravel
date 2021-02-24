@@ -1,0 +1,36 @@
+Les files :
+
+1-   .env : c'est important pour toutes configuration de laravel dont il est muni de :
+        -Config BDD
+        -App_key : generer automatiquement avec artisan s'il n'y a aucun Laravel ne fonctionne pas
+        -App_debug : il faut le mettre en false lorsqu'on met en production nos projet
+        -Config Email : pour stmp
+2-  Dans le dossier routes : gère toute vos route URL sur api, web, console et chanels dont les deux derniers j'ignore encore son fonctionnement
+3-  Dans le dossier resources : contient des fichier tels que :
+        -le lang-->pour changer le langue de laravel
+        -views-->c'est la dedans que nous mettons toutes notre vue et nous utilisons le template blade de laravel dont le fichier devra sous test.blade.php
+        -sass: prepossor css
+        -js: js pour le framework vue
+4-  Dans le Dossier public : accessible partout sur le url exemple: localhost/index.php ou localhost/world/hello.php
+        -Par contre c'est la dedans que nous incluons notre fichier image,mp3,video,.... et aussi les framework comme bootstrap ou les les librairie js ou css
+
+5-  Dans le dossier database :
+        -factories : j'ignore encore
+        -migration : pour créer nos tables avec les contraintes sans utiliser autres logiciels pour nous utilisons le Query builder ou sql
+        -seeds: pour ajouter les donner dans nos tables souhaiter sans avoir besoin d'autres logiciels sgbdr
+5- Dans le dossier config : c'est ici que nous configurons nos application c'est vraiment indispensable et fondamental et aussi le coeur de laravel
+        -app, auth, broadcasting, cache, database, filesystems, hashing, logging, mail, queue, services, sessions, view
+
+6-  Dans le dossier app :
+        -Exception : poour gerer les erreur
+        -Consol : creer nos propre commande artisan
+        -Helpers
+        -Http:
+            -Controllers : pour les controlleurs
+            -Middleware : en cours d'apprentissage
+            -Request : pour les validation
+            -Kernel.php : j'ignore encore
+        -Models : pour le model bdd
+        -Providers : pour les configurations de base pour vos application
+        -Repositories : utiles pour reécrir le code de nos models et les fonctions utiles pour la réutilistion de vos code et les optimisation ainsi
+

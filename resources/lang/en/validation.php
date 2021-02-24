@@ -134,6 +134,12 @@ return [
         ],
     ],
 
+    'custom' => [
+            'tags'=>[
+                'regex'=>'tags, separated by commas (no spaces), should have a maximum of 50 characters.',
+            ],   
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Custom Validation Attributes

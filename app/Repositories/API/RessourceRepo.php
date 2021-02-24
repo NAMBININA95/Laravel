@@ -12,13 +12,13 @@ class RessourceRepo{
             $user->save();
     } */
 
-    public function getPaginate($n)
+    public function getPaginate22($n)
     {
             //avec filtre
            return $this->models->with('user')->orderBy('posts.created_at','desc')->paginate($n);
     }
     
-    public function getPaginate2($n)
+    public function getPaginate($n)
     {
         //sans filtre   
         return $this->models->paginate($n);

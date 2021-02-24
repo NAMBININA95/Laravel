@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\API;
 
 use Illuminate\Http\Request;
-use Illuminate\Http\Requests\api\PostRequest;
+use App\Http\Requests\api\PostRequest;
 use App\Http\Controllers\Controller;
 use App\Repositories\API\PostsRepo;
 
@@ -25,12 +25,17 @@ class PostsController extends Controller
         $this->postRepo=$postsRepo;
      }
 
-    public function index()
+    public function index(/* $tag */)
     {
         //
-        $posts=$this->postRepo->getPaginate($this->nbrePerPage);
+        //$posts=$this->postRepo->getPaginate($this->nbrePerPage);
+        $posts=$this->postRepo->getWithUserAndTagsPaginate($this->nbrePerPage);
         $links=$posts->render();
-        return view('posts.liste',compact('posts','links'));
+        return view('posts.liste_sansTag',compact('posts','links'));
+
+       /*  $posts=$this->postRepo->getWithUserAndTagsForTagPaginate($tag,$this->nbrePerPage);
+        $links=$posts->render();
+        return view('posts.liste',compact('posts','links'))->with('info','Résultat pour la recherche du mot-clé : '.$tag); */
 
     }
 
@@ -104,5 +109,14 @@ class PostsController extends Controller
         //
         $this->postRepo->destroy($id);
         return redirect()->route('post.index')->with('success','votre article a été supprimer');
+    }
+
+    public function indexTag($tag)
+    {
+        # code...
+
+        $posts=$this->postRepo->getWithUserAndTagsForTagPaginate($tag,$this->nbrePerPage);
+        $links=$posts->render();
+        return view('posts.liste',compact('posts','links'))->with('info','Résultat pour la recherche du mot-clé : '.$tag);
     }
 }

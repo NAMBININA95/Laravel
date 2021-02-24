@@ -17,9 +17,9 @@
 
 @section('contenu')
 
-    @if (isset($info)){{-- $info --}}
+    @if (isset($success)){{-- $info --}}
             <div class="row alert alert-info">
-                    {{ $info }}
+                    {{ $success }}
             </div>
         
     @endif
@@ -29,16 +29,7 @@
 
             <article class="row bg-primary">
                 <header>
-                    <h1>{{ $post->titre }}
-
-                        @foreach($post->tags as $tag)
-
-                            <a class="btn btn-xs btn-info" href="{{ route('post/tag/'.$tag->tag_url) }}">{{ $tag->tag }}</a>
-                            
-                        @endforeach
-
-
-                    </h1>
+                    {{ $post->titre }}
                 </header>
                 <hr>
                 <section>
@@ -55,6 +46,9 @@
                     @endif
 
                     <em class="pull-right">
+                       {{--  @foreach($tags as $tag) --}}
+                            <span class="glyphicon glyphicon-paste">Aucun</span>
+                        {{--  @endforeach --}}
                             <span class="glyphicon glyphicon-pencil"></span>
                             {{ $post->user->name }} le {!! $post->created_at->format('d-m-y') !!}
                     </em>
