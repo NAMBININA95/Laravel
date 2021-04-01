@@ -29,9 +29,10 @@ class PostsController extends Controller
     {
         //
         //$posts=$this->postRepo->getPaginate($this->nbrePerPage);
-        $posts=$this->postRepo->getWithUserAndTagsPaginate($this->nbrePerPage);
+        $posts=$this->postRepo->getPaginate($this->nbrePerPage);
         $links=$posts->render();
-        return view('posts.liste_sansTag',compact('posts','links'));
+//        return view('posts.liste_sansTag',compact('posts','links'));
+        return view('posts.liste',compact('posts','links'));
 
        /*  $posts=$this->postRepo->getWithUserAndTagsForTagPaginate($tag,$this->nbrePerPage);
         $links=$posts->render();
@@ -111,12 +112,19 @@ class PostsController extends Controller
         return redirect()->route('post.index')->with('success','votre article a été supprimer');
     }
 
-    public function indexTag($tag)
+  /*  public function indexTag($tag)
     {
         # code...
 
         $posts=$this->postRepo->getWithUserAndTagsForTagPaginate($tag,$this->nbrePerPage);
         $links=$posts->render();
         return view('posts.liste',compact('posts','links'))->with('info','Résultat pour la recherche du mot-clé : '.$tag);
-    }
+    }*/
+
+   /* public function showDataManyToMany(PostsRepo $articles){
+        $tags=PostsRepo::find($articles->id)->tags;
+        $art=PostsRepo::find($articles->id);
+        return view('posts.liste',compact('tags','art'));
+
+    }*/
 }

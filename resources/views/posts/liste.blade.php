@@ -17,6 +17,14 @@
 
 @section('contenu')
 
+{{--    <div class="container">--}}
+{{--        <h1>Test pour ma ManyToMany</h1>--}}
+{{--        @foreach($art->tags as $tag)--}}
+{{--            {{ $tag->tag  ---  $tag->tag_url }}--}}
+
+{{--        @endforeach--}}
+{{--    </div>--}}
+
     @if (isset($info)){{-- $info --}}
             <div class="row alert alert-info">
                     {{ $info }}
@@ -27,19 +35,19 @@
 
     @foreach($posts as $post)
 
-            <article class="row bg-primary">
-                <header>
-                    <h1>{{ $post->titre }}
+{{--            <article class="row bg-primary">--}}
+{{--                <header>--}}
+{{--                    <h1>{{ $post->titre }}--}}
 
-                        @foreach($post->tags as $tag)
+{{--                        @foreach($post->tags as $tag)--}}
 
-                            <a class="btn btn-xs btn-info" href="{{ route('post/tag/'.$tag->tag_url) }}">{{ $tag->tag }}</a>
-                            
-                        @endforeach
+{{--                            <a class="btn btn-xs btn-info" href="{{ route('post/tag/'.$tag->tag_url) }}">{{ $tag->tag }}</a>--}}
+{{--                            --}}
+{{--                        @endforeach--}}
 
 
-                    </h1>
-                </header>
+{{--                    </h1>--}}
+{{--                </header>--}}
                 <hr>
                 <section>
                     <p>{{ $post->contenu }}</p>

@@ -10,7 +10,7 @@ class Tags extends Model
     protected $table='tags';
     protected $fillable=['tag','tag_url'];
 
-    public function posts(){// le nom de la table doit se correspondre dans la base de données
+   /* public function posts(){// le nom de la table doit se correspondre dans la base de données
         return $this->belongsToMany('App\Models\API\PostModel');
-    }
+    }*/
 }

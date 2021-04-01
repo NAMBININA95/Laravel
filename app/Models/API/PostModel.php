@@ -16,7 +16,7 @@ class PostModel extends Model
         return $this->belongsTo('App\User');
     }
 
-    public function tags(){// le nom de la table doit se correspondre dans la base de données
+   /* public function tags(){// le nom de la table doit se correspondre dans la base de données
         return $this->belongsToMany('App\Models\API\Tags');
-    }
+    }*/
 }

@@ -15,9 +15,12 @@
 //use Illuminate\Routing\Route;
 //use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('layout/layout');
-});
+});*/
+
+Route::get('/', 'HomeController@index');
+
 
 /*apprendre à ajouter des variable dans html*/
 Route::get('/hello', function () {
