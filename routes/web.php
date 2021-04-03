@@ -79,3 +79,28 @@ Route::resource('post', 'API\PostsController',['except'=>['show','edit','update'
 Route::get('post/tag/{tag}','PostsController@indexTag')->name('recherche');
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+/*
+ * Simulation pour faire des testes direct sur le route*/
+
+Route::get('/manyTomany', function () {
+
+    $user = \App\Models\API\PostModel::find(10);
+    $user2 = \App\Models\API\PostModel::select(' select * ');
+//    $user = \App\Models\API\PostModel::find(10);
+//
+//    $user->roles()->sync([
+//        1 => [
+//            'name' =>'victor'
+//        ]
+//    ]);
+
+   foreach ($user->tags as $role) {
+        echo $role;
+//        dd($role);
+    }
+
+//    dd($user->tags->first()->pivot->created_at);
+
+});

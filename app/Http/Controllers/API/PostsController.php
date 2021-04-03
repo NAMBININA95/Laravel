@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Http\Requests\api\PostRequest;
 use App\Http\Controllers\Controller;
 use App\Repositories\API\PostsRepo;
+use App\Models\API\PostModel;
+use App\Models\API\Post_Tags;
 
 class PostsController extends Controller
 {
@@ -25,14 +27,17 @@ class PostsController extends Controller
         $this->postRepo=$postsRepo;
      }
 
-    public function index(/* $tag */)
+    public function index(/* $tag */ PostModel $post_model, Post_Tags $post_Tags)
     {
         //
         //$posts=$this->postRepo->getPaginate($this->nbrePerPage);
         $posts=$this->postRepo->getPaginate($this->nbrePerPage);
+//        $articles=PostModel::find($post_model->id)->tags;
+        $articles=Post_Tags::find(22);
+        $tagss=PostModel::find($post_model->id);
         $links=$posts->render();
 //        return view('posts.liste_sansTag',compact('posts','links'));
-        return view('posts.liste',compact('posts','links'));
+        return view('posts.liste',compact('posts','links','articles','tagss'));
 
        /*  $posts=$this->postRepo->getWithUserAndTagsForTagPaginate($tag,$this->nbrePerPage);
         $links=$posts->render();

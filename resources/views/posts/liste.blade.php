@@ -17,13 +17,13 @@
 
 @section('contenu')
 
-{{--    <div class="container">--}}
-{{--        <h1>Test pour ma ManyToMany</h1>--}}
-{{--        @foreach($art->tags as $tag)--}}
-{{--            {{ $tag->tag  ---  $tag->tag_url }}--}}
+    <div class="container">
+        <h1>Test pour ma ManyToMany</h1>
+        @foreach($articles->tags as $tag)
+            {{ $tag->id }}
 
-{{--        @endforeach--}}
-{{--    </div>--}}
+        @endforeach
+    </div>
 
     @if (isset($info)){{-- $info --}}
             <div class="row alert alert-info">

@@ -35,12 +35,10 @@ class RessourceRepo{
     {
             return $this->models->findOrFail($id);
     }
-
     public function update($id, Array $inputs)
     {
             $this->getById($id)->update($inputs);
     }
-
     public function destroy($id)
     {
             $this->getById($id)->delete();

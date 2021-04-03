@@ -18,6 +18,7 @@ class User extends Authenticatable
     protected $fillable = [
         'name', 'email', 'password','admin'
     ];
+    protected $primaryKey = 'id';
 
     /**
      * The attributes that should be hidden for arrays.
@@ -44,7 +45,7 @@ class User extends Authenticatable
          * Pour relier à la table articles  post 
          * 
          */
-        return $this->hasMany('App\Modes\API\PostModel');
+        return $this->hasMany(App\Modes\API\PostModel::class);
     }
 
    
