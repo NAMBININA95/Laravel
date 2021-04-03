@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5239593-8d0d-45eb-80e6-d02e0790a44a" name="Default" comment="version officiel sans modification laravel 5.8 artisan">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/PostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/API/PostModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/API/PostModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/API/Tags.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/API/Tags.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repositories/API/PostsRepo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/API/PostsRepo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repositories/API/RessourceRepo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/API/RessourceRepo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Repositories/API/UserRepo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/API/UserRepo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/liste.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/liste.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Services/DateInjection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/TEACHER/shared/service_weekend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/TEACHER/shared/service_weekend.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,173 +56,118 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.4368">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.env">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="168">
-                  <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/Models/API/PostModel.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="237">
-                  <caret line="20" column="89" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/Models/API/Post_Tags.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="69">
-                  <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/Models/abonnement/Abonner.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/Models/API/Tags.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="333">
-                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/views/posts/liste.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-498">
-                  <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/routes/web.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="57">
-                  <caret line="89" column="58" selection-start-line="89" selection-start-column="58" selection-end-line="89" selection-end-column="58" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/app.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2485">
-                  <caret column="7" selection-start-column="7" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/database.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-737">
-                  <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/mail.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2907" />
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/session.php">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/view.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="192">
-                  <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/MyDoc.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="10">
-                  <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="uml://DATABASE/330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.SCHEMA:laravel58">
-              <provider selected="true" editor-type-id="UmlEditorProvider">
-                <state>
-                  <ID>DATABASE</ID>
-                  <OriginalElement>330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.SCHEMA:laravel58</OriginalElement>
-                  <nodes>
-                    <node x="404.5" y="0.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.migrations</node>
-                    <node x="0.0" y="669.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.abonnement</node>
-                    <node x="173.0" y="276.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts</node>
-                    <node x="0.0" y="287.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tags</node>
-                    <node x="80.75" y="486.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag</node>
-                    <node x="602.5" y="0.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.password_resets</node>
-                    <node x="162.5" y="0.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users</node>
-                  </nodes>
-                  <notes />
-                  <edges>
-                    <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts">
-                      <point x="44.0" y="-69.0" />
-                      <point x="212.75" y="461.0" />
-                      <point x="261.0" y="461.0" />
-                      <point x="0.0" y="80.0" />
-                    </edge>
-                    <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tags">
-                      <point x="-44.0" y="-69.0" />
-                      <point x="124.75" y="461.0" />
-                      <point x="76.5" y="461.0" />
-                      <point x="0.0" y="69.0" />
-                    </edge>
-                    <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users">
-                      <point x="0.0" y="-80.0" />
-                      <point x="0.0" y="113.0" />
-                    </edge>
-                  </edges>
-                  <settings layout="Hierarchic Group" zoom="1.1006570302233902" x="-8.948424068767906" y="198.0515759312321" />
-                  <SelectedNodes>
-                    <node>330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.migrations</node>
-                  </SelectedNodes>
-                  <Categories>
-                    <Category>Key columns</Category>
-                    <Category>Columns</Category>
-                  </Categories>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="117" column="43" lean-forward="true" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="744">
+              <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/app.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1464">
+              <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/mail.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/session.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyDoc.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.SCHEMA:laravel58">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.SCHEMA:laravel58</OriginalElement>
+              <nodes>
+                <node x="404.5" y="0.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.migrations</node>
+                <node x="0.0" y="669.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.abonnement</node>
+                <node x="10.5" y="276.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts</node>
+                <node x="206.5" y="287.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tags</node>
+                <node x="102.75" y="486.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag</node>
+                <node x="602.5" y="0.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.password_resets</node>
+                <node x="0.0" y="0.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users">
+                  <point x="0.0" y="-80.0" />
+                  <point x="0.0" y="113.0" />
+                </edge>
+                <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts">
+                  <point x="-44.0" y="-69.0" />
+                  <point x="146.75" y="461.0" />
+                  <point x="98.5" y="461.0" />
+                  <point x="0.0" y="80.0" />
+                </edge>
+                <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tags">
+                  <point x="44.0" y="-69.0" />
+                  <point x="234.75" y="461.0" />
+                  <point x="283.0" y="461.0" />
+                  <point x="0.0" y="69.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.6209573091849935" x="376.50000000000006" y="370.5" />
+              <SelectedNodes>
+                <node>330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.migrations</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -290,6 +229,13 @@
         <option value="$PROJECT_DIR$/app/Models/API/PostModel.php" />
         <option value="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634/schema/laravel58/table/post_tag.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634/console.sql" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/app/ServiceInjectionUtilities/DateInjection.php" />
+        <option value="$PROJECT_DIR$/resources/views/TEACHER/shared/_service_weekend.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/TEACHER/layouts/main.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/TEACHER/pages/service_injection.blade.php" />
+        <option value="$PROJECT_DIR$/app/Services/DateInjection.php" />
+        <option value="$PROJECT_DIR$/resources/views/TEACHER/shared/service_weekend.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
@@ -417,7 +363,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -430,28 +375,11 @@
               <item name="cours" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cours" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cours" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cours" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cours" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-              <item name="abonnement" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cours" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cours" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,16 +390,17 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Services" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\cours\app\Services" />
+      <recent name="E:\Laravel\code\cours\database\migrations" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Laravel\code\cours\database\migrations\default" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Laravel\code\cours\database\migrations" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -515,6 +444,7 @@
       <workItem from="1617173534068" duration="730000" />
       <workItem from="1617215560839" duration="4675000" />
       <workItem from="1617283866797" duration="21300000" />
+      <workItem from="1617433943776" duration="7692000" />
     </task>
     <task id="LOCAL-00001" summary="hello world avec laravel 5.8 artisan">
       <created>1611502945404</created>
@@ -527,7 +457,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63797000" />
+    <option name="totallyTimeSpent" value="71489000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -540,14 +470,42 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48192772" weight="0.21558245" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48192772" visible="true" weight="0.295764" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5180723" side_tool="true" weight="0.2706422" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="DB Browser" order="4" weight="0.32980332" />
-      <window_info anchor="bottom" id="Database Console" weight="0.3296" />
-      <window_info anchor="bottom" id="SQL Generator" weight="0.4976" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32686085" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32847896" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.328" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.952" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32847896" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32847896" />
+      <window_info anchor="bottom" id="Tail" order="12" />
+      <window_info anchor="bottom" id="SonarLint" order="13" />
+      <window_info anchor="bottom" id="DB Execution Console" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.3296" />
+      <window_info anchor="bottom" id="SQL Generator" order="17" weight="0.4976" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.20801815" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48192772" visible="true" weight="0.295764" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="npm" order="2" sideWeight="0.5180723" side_tool="true" weight="0.2706422" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="DB Browser" order="4" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32686085" />
@@ -564,39 +522,12 @@
       <window_info anchor="bottom" id="SonarLint" order="13" />
       <window_info anchor="bottom" id="DB Execution Console" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.3296" />
+      <window_info anchor="bottom" id="SQL Generator" order="17" weight="0.4976" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.20801815" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48192772" visible="true" weight="0.21558245" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.5180723" side_tool="true" weight="0.2706422" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="DB Browser" order="4" weight="0.32980332" />
-      <window_info anchor="bottom" id="SQL Generator" order="0" weight="0.4976" />
-      <window_info anchor="bottom" id="Database Console" order="1" weight="0.3296" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32840723" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.32686085" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" weight="0.32847896" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.328" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.048" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32847896" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32847896" />
-      <window_info anchor="bottom" id="Tail" order="14" />
-      <window_info anchor="bottom" id="SonarLint" order="15" />
-      <window_info anchor="bottom" id="DB Execution Console" order="16" />
-      <window_info anchor="bottom" id="Database Changes" order="17" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.33055976" />
+      <window_info anchor="right" id="Database" order="3" weight="0.20801815" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,76 +550,15 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env.example">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://E:/Laravel/code/source/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-720" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/auth.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1635" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-737">
-          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2907" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/session.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -707,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyDoc.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/55a915f3-2e97-4134-af20-b78a937d6ac4/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -722,13 +585,6 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/9b76bb8f-d4f9-4154-b84c-e89fd6589e04/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/Tag.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -751,50 +607,6 @@
           <folding>
             <element signature="e#7#25#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.SCHEMA:laravel58">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.SCHEMA:laravel58</OriginalElement>
-          <nodes>
-            <node x="404.5" y="0.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.migrations</node>
-            <node x="0.0" y="669.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.abonnement</node>
-            <node x="173.0" y="276.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts</node>
-            <node x="0.0" y="287.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tags</node>
-            <node x="80.75" y="486.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag</node>
-            <node x="602.5" y="0.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.password_resets</node>
-            <node x="162.5" y="0.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts">
-              <point x="44.0" y="-69.0" />
-              <point x="212.75" y="461.0" />
-              <point x="261.0" y="461.0" />
-              <point x="0.0" y="80.0" />
-            </edge>
-            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tags">
-              <point x="-44.0" y="-69.0" />
-              <point x="124.75" y="461.0" />
-              <point x="76.5" y="461.0" />
-              <point x="0.0" y="69.0" />
-            </edge>
-            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users">
-              <point x="0.0" y="-80.0" />
-              <point x="0.0" y="113.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.1006570302233902" x="-8.948424068767906" y="198.0515759312321" />
-          <SelectedNodes>
-            <node>330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.migrations</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
         </state>
       </provider>
     </entry>
@@ -878,31 +690,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2485">
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/API/Tags.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -912,20 +703,6 @@
           <filtering>
             <filter text="" />
           </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/API/PostModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="20" column="89" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/posts/liste.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-498">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -973,24 +750,186 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/API/Post_Tags.php">
+    <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="89" column="58" selection-start-line="89" selection-start-column="58" selection-end-line="89" selection-end-column="58" />
+        <state relative-caret-position="1464">
+          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mail.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/session.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/API/Post_Tags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/abonnement/Abonner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="216">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/API/Tags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/posts/liste.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/API/PostModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/framework/views/3db0766c63ebbd460936e48d0a665442d30a97ac.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyDoc.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.SCHEMA:laravel58">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.SCHEMA:laravel58</OriginalElement>
+          <nodes>
+            <node x="404.5" y="0.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.migrations</node>
+            <node x="0.0" y="669.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.abonnement</node>
+            <node x="10.5" y="276.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts</node>
+            <node x="206.5" y="287.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tags</node>
+            <node x="102.75" y="486.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag</node>
+            <node x="602.5" y="0.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.password_resets</node>
+            <node x="0.0" y="0.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users">
+              <point x="0.0" y="-80.0" />
+              <point x="0.0" y="113.0" />
+            </edge>
+            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts">
+              <point x="-44.0" y="-69.0" />
+              <point x="146.75" y="461.0" />
+              <point x="98.5" y="461.0" />
+              <point x="0.0" y="80.0" />
+            </edge>
+            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tags">
+              <point x="44.0" y="-69.0" />
+              <point x="234.75" y="461.0" />
+              <point x="283.0" y="461.0" />
+              <point x="0.0" y="69.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6209573091849935" x="376.50000000000006" y="370.5" />
+          <SelectedNodes>
+            <node>330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.migrations</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ServiceInjectionUtilities/DateInjection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/layouts/main.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/DateInjection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/shared/service_weekend.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/pages/service_injection.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="117" column="43" lean-forward="true" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="43" />
         </state>
       </provider>
     </entry>
