@@ -118,6 +118,31 @@ Route::get('/service-injection', function () {
     return view('TEACHER.pages.service_injection');
 });#route pour apprendre la service d'injection
 
+Route::get('/requete-database', function () {
+
+    /*
+     * La difference entre alias DB et Elequent ORM c'est :
+     *  Eloquent retourne les données en collections
+     *  DB retoune les données en array*/
+
+    $query=DB::select('select * from users');
+    $queryQueryBuilder=DB::table('users')->get();
+//    dd($query);
+    dump($query);
+    dump($queryQueryBuilder);
+
+//    Maintenant je vais appeller le model avec le query Builder DB:: et ses classe static
+
+    $articles= App\Models\TEACHER\articles::find(10);
+    dump($articles);
+});#route pour faire la simulation d'un requete de based de données
+
+Route::get('afficher-articles',function (){
+//    $articles=App\Models\TEACHER\articles::all();
+    $articles=App\Models\TEACHER\articles::limit(6)->get();
+    return view("TEACHER.pages.affichage")->withArticles($articles);
+});
+
 
 /***
 -----------------------------------------------------------

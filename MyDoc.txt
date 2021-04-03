@@ -34,3 +34,41 @@ Les files :
         -Providers : pour les configurations de base pour vos application
         -Repositories : utiles pour reécrir le code de nos models et les fonctions utiles pour la réutilistion de vos code et les optimisation ainsi
 
+
+-------------LES NOTES PERSONNELS SUR LARAVEL AVEC TEACHER DU NET---------------------
+
+1-View : 
+	il y a deux façons d'appeler les vues :
+		-view('chemin.chemin') ou view('chemin.chemin')
+		-View::make('chemin.chemin') => c'est façade declarer dans le config/app dont la methode make est static 
+
+	a-pour parser les variables dans des routes ou les controlleurs cad afficher les contenue d'un variable dans le vue : 
+		voici les expressions possible : 
+		 	$nom = 'Zaho'; $prenom='Alika'
+			$data=[
+				'nome'=>$nom,
+				'momo'=>$prenom
+
+				]
+			-view('test',$data)
+			-view('test')->withFirstName('Zaho') ===> L-en miniscule l et N sera _n car ils sont en camelcase dans nos vue
+			-view('test')->with('nom',$nom)->with('prenom',$prenom)
+			-view('test')->with(['nom'=>$nom,'prenom'])
+			-view('test')->compact('nom','prenom')
+		Maintenant pour les appeler dans le vue : 
+			{{ $nom }}----échaper les balises inclus
+			{!!$nom!!}--- ne pas échaper
+			<?php echo $nom ?> ou <?= $nom ?>
+2-Blade : 
+	-Injection de Service doc: (Pour eviter de duplication de code dans vos template blade)
+
+3-Eloquent : c'est l'ORM de Laravel cad creer une classe approprier à la tabla dans un base de données	
+	DB::statement('DROP tabel');
+
+
+4-Migration : 
+	Pour ajouter une table : --create=tables
+	Pour modifier une table : --table=test
+	S'il y a des erreur de migration ,  il faut utiliser composer dumpautoload -o pour prendre en consideration toutes vos migration
+
+		
