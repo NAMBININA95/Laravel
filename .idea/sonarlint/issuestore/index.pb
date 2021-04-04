@@ -94,3 +94,21 @@ l
 <app/Repositories/abonnement/AbonnerRepositoriesInterface.php,6\9\69b41509cd4ff5bf0fecee166c5053d96c41fb71
 L
 app/Models/API/Post_Tags.php,0\a\0a6ac605e3bb1ec02c64cf475560e09f4b6f5111
+t
+Dstorage/framework/views/3db0766c63ebbd460936e48d0a665442d30a97ac.php,3\3\33826804d8428f8be05ef645bd3944e9b6d314f0
+C
+config/services.php,6\7\67cde7ebf0c82e44eedc43a9b83d4fa13c684078
+_
+/app/ServiceInjectionUtilities/DateInjection.php,b\1\b178ab0909fc45ace2d4282b4ec8a7ccaafaa944
+^
+.resources/views/TEACHER/layouts/main.blade.php,6\4\64aa9d938f73bdadf3aba8cbc221f37d41563c63
+N
+app/Services/DateInjection.php,2\a\2a8ff31e416a4ffaa020d18354c727041772d4aa
+h
+8resources/views/TEACHER/shared/service_weekend.blade.php,e\1\e176a80f1beb3e3f806fe0ead286497d1a9f0f9e
+i
+9resources/views/TEACHER/pages/service_injection.blade.php,a\1\a18c369be3179720bb98e2b7b42cffa38d7d3ffd
+a
+1resources/views/TEACHER/pages/affichage.blade.php,5\8\583046422b6df3a37d67b71ebbf7f15e368a509f
+O
+app/Models/TEACHER/articles.php,e\4\e4e86729a75ea63e20d5d48c87f54a3aac8f0959

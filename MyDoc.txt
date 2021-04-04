@@ -71,4 +71,11 @@ Les files :
 	Pour modifier une table : --table=test
 	S'il y a des erreur de migration ,  il faut utiliser composer dumpautoload -o pour prendre en consideration toutes vos migration
 
-		
+5-Helpers: Lorsqu'on des logique dans notre vue tel que if while ou autres ; il est préférable d'utiliser les helpers cad de créer des fonctions : 
+	le fichier doit être autoload dans composer.json sous "autoload" : { "files" : "app/helpers.php"} puis la commande composer dumpautoload -o
+	
+	REGARDER LA DOCUMENTATION DE FORMAT NUMBER SUR PHP POUR VOIR AUTRE  FONCTIONNALITER
+	Par contre si vos helpers ne sont pas interdependant , alors créer un dossier helpers les structurer la dedans dont il est preferable d'utiliser les classes
+6-Tinker : c'est le console de laravel dont nous pourrions acceder facilement les contenu en les spécifiant les emplacement tel que : App/Models/articles 
+
+7-Alias sur cmd de windows ex : doskey pa=php artisan	
