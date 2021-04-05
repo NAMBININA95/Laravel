@@ -15,6 +15,7 @@
             <article class="{{ $loop->index%2==0 ? 'blink':'' }}">
                 <p>{{ $art->titre }}</p>
                 <p>{{ $art->contenu }}</p>
+                <p>{{ $art->fake_titre }}</p>
 {{--                <p>{{ $art->user_id }}</p>--}}
                 <p>{!!  verif_nbre_paire($art)  !!}</p> {{-- Ceci est dans files helpers.php seulement des fonctions sans classe --}}
                 <h5>Ce articles a été créé le {!! Testes_Helpers::format_dates($art->created_at) !!}</h5>  {{-- Ceci est dans fichier Helpers/Testes_Helpers.php seulement classe avec des méthodes statics --}}

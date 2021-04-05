@@ -19,6 +19,8 @@
     return view('layout/layout');
 });*/
 
+use App\Models\TEACHER\articles;
+
 Route::get('/', 'HomeController@index');
 
 
@@ -141,6 +143,13 @@ Route::get('afficher-articles',function (){
 //    $articles=App\Models\TEACHER\articles::all();
     $articles=App\Models\TEACHER\articles::limit(6)->get();
     return view("TEACHER.pages.affichage")->withArticles($articles);
+});
+Route::get('afficher-articles2',function (){
+    $e= App\Models\TEACHER\articles::first();
+    $e->titre="Allo c'est un titre modifier par Georges";
+    $e->save();
+    return App\Models\TEACHER\articles::first();
+
 });
 
 

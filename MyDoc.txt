@@ -76,6 +76,7 @@ Les files :
 	
 	REGARDER LA DOCUMENTATION DE FORMAT NUMBER SUR PHP POUR VOIR AUTRE  FONCTIONNALITER
 	Par contre si vos helpers ne sont pas interdependant , alors créer un dossier helpers les structurer la dedans dont il est preferable d'utiliser les classes
+
 6-Tinker : c'est le console de laravel dont nous pourrions acceder facilement les contenu en les spécifiant les emplacement tel que : App/Models/articles 
 
 7-Alias sur cmd de windows ex : doskey pa=php artisan	

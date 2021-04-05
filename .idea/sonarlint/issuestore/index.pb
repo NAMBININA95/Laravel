@@ -112,3 +112,7 @@ a
 1resources/views/TEACHER/pages/affichage.blade.php,5\8\583046422b6df3a37d67b71ebbf7f15e368a509f
 O
 app/Models/TEACHER/articles.php,e\4\e4e86729a75ea63e20d5d48c87f54a3aac8f0959
+?
+app/helpers.php,5\e\5e92ff15dd02e679a9c48c1fc7e1b005c24dee00
+N
+app/Helpers/Testes_Helpers.php,5\2\5215f19e2331161518f6253bd9995135d2ca36b7
