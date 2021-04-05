@@ -1,4 +1,4 @@
--------<?php
+<?php
 
 return [
 
@@ -52,7 +52,8 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    /*'url' => env('APP_URL', 'http://localhost:80'),*/
+    'url' => env('APP_URL', 'http://laravel58'),
 
     'asset_url' => env('ASSET_URL', null),
 
@@ -172,7 +173,7 @@ return [
             */
 
 
-        barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        /*barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,*/
        
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,

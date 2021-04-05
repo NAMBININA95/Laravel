@@ -116,3 +116,5 @@ O
 app/helpers.php,5\e\5e92ff15dd02e679a9c48c1fc7e1b005c24dee00
 N
 app/Helpers/Testes_Helpers.php,5\2\5215f19e2331161518f6253bd9995135d2ca36b7
+`
+0resources/views/TEACHER/pages/shortcut.blade.php,c\f\cfb57edc61d35e1aa5c3a141e1c9f7068b440c11

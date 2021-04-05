@@ -11,15 +11,8 @@
 |
 */
 
-//use App\Models\abonnement\Abonner;
-//use Illuminate\Routing\Route;
-//use Illuminate\Support\Facades\Route;
 
-/*Route::get('/', function () {
-    return view('layout/layout');
-});*/
-
-use App\Models\TEACHER\articles;
+use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'HomeController@index');
 
@@ -151,6 +144,51 @@ Route::get('afficher-articles2',function (){
     return App\Models\TEACHER\articles::first();
 
 });
+
+//Shotcut link by my teacher
+
+Route::get('/shortcut-website',function (){
+
+    return view('TEACHER.pages.shortcut');
+
+});
+
+Route::post('/shortcut-website',function (){
+//    $url=$_POST['shortcut'];
+    /*
+     * Il y  a plusieurs facons d'acceder à nos input :
+     *      request()->get('shortcut')
+     *      request()->input('shortcut')*/
+//    dd('Ok mandea soa post nao io');
+//    dd(request()-
+
+    $url2= App\Models\TEACHER\Url_Short::where('link_origi',request('shortcut'))->first();
+
+    if($url2){
+
+        return view('TEACHER.pages.shorcutvalue')->withShortcut($url2->link_short);
+
+    }
+
+
+});
+Route::get('/{shortcut}',function ($shortcut){
+
+    $url2= App\Models\TEACHER\Url_Short::whereLinkShort($shortcut)->first();
+//    return redirect($url2->link_origi);
+
+    if(! $url2){
+        return redirect('/shortcut-website');
+
+
+    }else{
+
+        return redirect($url2->link_origi);
+    }
+
+
+});
+
 
 
 /***

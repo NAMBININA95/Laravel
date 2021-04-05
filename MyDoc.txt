@@ -79,4 +79,16 @@ Les files :
 
 6-Tinker : c'est le console de laravel dont nous pourrions acceder facilement les contenu en les spécifiant les emplacement tel que : App/Models/articles 
 
-7-Alias sur cmd de windows ex : doskey pa=php artisan	
+7-Alias sur cmd de windows ex : doskey pa=php artisan
+
+
+8-Config : pour acceder toutes les fichier des configuration de dossier config :
+        config('app.url');
+        config('services.ses.region')=====>s'il est encore sous un array
+
+9- Fichier .env :
+        A chaque fois ajout des configuration ou modifier dans le fichier .env ou dans le dossier config
+        n'oublie d'executer ces commande pour les prendre en consideration :
+                --php artisan config:cache
+                --php artisan config:clear
+                --php artisan cache:clear
