@@ -68,7 +68,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
+            <state relative-caret-position="159">
               <caret line="185" column="43" lean-forward="true" selection-start-line="185" selection-start-column="43" selection-end-line="185" selection-end-column="43" />
               <folding>
                 <element signature="e#7#389#0#PHP" expanded="true" />
@@ -398,7 +398,7 @@
       <workItem from="1617433943776" duration="16296000" />
       <workItem from="1617555930382" duration="7053000" />
       <workItem from="1617610260086" duration="7530000" />
-      <workItem from="1617619894047" duration="9384000" />
+      <workItem from="1617619894047" duration="9641000" />
     </task>
     <task id="LOCAL-00001" summary="hello world avec laravel 5.8 artisan">
       <created>1611502945404</created>
@@ -411,7 +411,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104060000" />
+    <option name="totallyTimeSpent" value="104317000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -424,7 +424,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48192772" visible="true" weight="0.22239032" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -440,7 +439,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32847896" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.328" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.562212" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.562212" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32847896" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32847896" />
       <window_info anchor="bottom" id="Tail" order="12" />
@@ -864,7 +863,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
+        <state relative-caret-position="159">
           <caret line="185" column="43" lean-forward="true" selection-start-line="185" selection-start-column="43" selection-end-line="185" selection-end-column="43" />
           <folding>
             <element signature="e#7#389#0#PHP" expanded="true" />
