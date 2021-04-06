@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5239593-8d0d-45eb-80e6-d02e0790a44a" name="Default" comment="version officiel sans modification laravel 5.8 artisan">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TEACHER/ShotUrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TEACHER/ShotUrl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyDoc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyDoc.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,23 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TEACHER/ShotUrl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="52" column="44" lean-forward="true" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-              <folding>
-                <element signature="e#48#87#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/errors/404.blade.php">
+        <entry file="file://$PROJECT_DIR$/MyDoc.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            <state relative-caret-position="46">
+              <caret line="74" column="39" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -151,20 +135,20 @@
         <option value="$USER_HOME$/Desktop/AliasLaravel/alias.bat" />
         <option value="$PROJECT_DIR$/resources/views/TEACHER/pages/affichage.blade.php" />
         <option value="$PROJECT_DIR$/app/Models/TEACHER/articles.php" />
-        <option value="$PROJECT_DIR$/MyDoc.txt" />
         <option value="$PROJECT_DIR$/resources/views/TEACHER/pages/shorcutvalue.blade.php" />
         <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/app/Models/TEACHER/Url_Short.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/TEACHER/ShortUrl.php" />
         <option value="$PROJECT_DIR$/resources/views/layout/layoutBlog.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/TEACHER/pages/shortcut.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Exceptions/Handler.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TEACHER/ShotUrl.php" />
         <option value="$PROJECT_DIR$/resources/views/errors/404.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/TEACHER/ShortUrl.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TEACHER/ShotUrl.php" />
+        <option value="$PROJECT_DIR$/MyDoc.txt" />
       </list>
     </option>
   </component>
@@ -274,6 +258,7 @@
         <option value="$PROJECT_DIR$/.idea/blade.xml" />
         <option value="$PROJECT_DIR$/.idea/laravel-plugin.xml" />
         <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       </list>
     </option>
   </component>
@@ -304,24 +289,6 @@
               <item name="cours" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cours" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cours" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cours" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cours" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cours" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cours" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="errors" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -338,7 +305,7 @@
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Services" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.SonarLint" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -394,7 +361,7 @@
       <workItem from="1617555930382" duration="7053000" />
       <workItem from="1617610260086" duration="7530000" />
       <workItem from="1617619894047" duration="9710000" />
-      <workItem from="1617714051222" duration="15785000" />
+      <workItem from="1617714051222" duration="22373000" />
     </task>
     <task id="LOCAL-00001" summary="hello world avec laravel 5.8 artisan">
       <created>1611502945404</created>
@@ -407,7 +374,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120171000" />
+    <option name="totallyTimeSpent" value="126759000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -436,7 +403,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32847896" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.328" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.7488" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3216" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32847896" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32847896" />
       <window_info anchor="bottom" id="Tail" order="12" />
@@ -451,13 +418,13 @@
       <window_info anchor="right" id="Database" order="3" weight="0.20801815" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48192772" visible="true" weight="0.295764" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48192772" visible="true" weight="0.22541603" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5180723" side_tool="true" weight="0.2706422" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="DB Browser" order="4" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32686085" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -465,11 +432,11 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32847896" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.328" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.048" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.7488" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32847896" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32847896" />
       <window_info anchor="bottom" id="Tail" order="12" />
-      <window_info anchor="bottom" id="SonarLint" order="13" />
+      <window_info anchor="bottom" id="SonarLint" order="13" weight="0.32872504" />
       <window_info anchor="bottom" id="DB Execution Console" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Console" order="16" weight="0.3296" />
@@ -489,51 +456,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="hello world avec laravel 5.8 artisan" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://DATABASE/330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.SCHEMA:laravel58">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.SCHEMA:laravel58</OriginalElement>
-          <nodes>
-            <node x="404.5" y="0.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.migrations</node>
-            <node x="0.0" y="669.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.abonnement</node>
-            <node x="10.5" y="276.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts</node>
-            <node x="206.5" y="287.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tags</node>
-            <node x="102.75" y="486.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag</node>
-            <node x="602.5" y="0.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.password_resets</node>
-            <node x="0.0" y="0.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts">
-              <point x="-44.0" y="-69.0" />
-              <point x="146.75" y="461.0" />
-              <point x="98.5" y="461.0" />
-              <point x="0.0" y="80.0" />
-            </edge>
-            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tags">
-              <point x="44.0" y="-69.0" />
-              <point x="234.75" y="461.0" />
-              <point x="283.0" y="461.0" />
-              <point x="0.0" y="69.0" />
-            </edge>
-            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users">
-              <point x="0.0" y="-80.0" />
-              <point x="0.0" y="113.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.6209573091849935" x="740.0" y="436.0" />
-          <SelectedNodes>
-            <node>330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.migrations</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/ServiceInjectionUtilities/DateInjection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -651,13 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyDoc.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
         </state>
       </provider>
     </entry>
@@ -779,13 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/TEACHER/ShortUrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/pages/shortcut.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -797,26 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="47" lean-forward="true" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634/schema/laravel58/table/url_short">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="7187215c-09ba-4d8a-8243-bfcc6c53fae6">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="153" column="17" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="30" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-            <element signature="e#392#425#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -844,30 +732,67 @@
     <entry file="file://$PROJECT_DIR$/resources/views/errors/layout.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/errors/illustrated-layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/errors/404.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="53" column="59" lean-forward="true" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
+        <state relative-caret-position="343">
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
           <folding>
             <element signature="e#34#48#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="das://330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634/schema/laravel58/table/url_short">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="7187215c-09ba-4d8a-8243-bfcc6c53fae6">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="152" column="15" selection-start-line="152" selection-start-column="13" selection-end-line="152" selection-end-column="29" />
+          <folding>
+            <element signature="e#7#389#0#PHP" expanded="true" />
+            <element signature="e#392#425#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/TEACHER/ShortUrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="27" column="67" lean-forward="true" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TEACHER/ShotUrl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="52" column="44" lean-forward="true" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+        <state relative-caret-position="349">
+          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
           <folding>
             <element signature="e#48#87#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/errors/404.blade.php">
+    <entry file="file://$PROJECT_DIR$/MyDoc.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="46">
+          <caret line="74" column="39" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
         </state>
       </provider>
     </entry>

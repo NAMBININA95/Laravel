@@ -24,7 +24,8 @@ class ShortUrl extends FormRequest
     public function rules()
     {
         return [
-            'link_origi'=>'required|max:150|url|unique:url_short'
+            'link_origi'=>'required|max:150|url'
+            //'link_origi'=>'required|max:150|url|unique:url_short'
         ];
     }
 }

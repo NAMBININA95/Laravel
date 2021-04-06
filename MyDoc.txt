@@ -92,3 +92,13 @@ Les files :
                 --php artisan config:cache
                 --php artisan config:clear
                 --php artisan cache:clear
+
+
+10- __invoke : est très recommader lorsque vous n'avez qu'un methode dans votre controlleur
+
+        route::get('/test',Hallocontrolleur)
+        Hallocontrolleur(){
+
+            public function __invoke(){
+                return view('')
+            }}

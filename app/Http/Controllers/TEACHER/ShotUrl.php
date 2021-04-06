@@ -13,7 +13,7 @@ class ShotUrl extends Controller
     public function create(){
         return view('TEACHER.pages.shortcut');
     }
-    public function store(ShortUrl $requestUrl){//Lorsqu'on utilise Request $request on on peut appeler directement le name dans l'input avec $request->link_origi
+    public function store2(ShortUrl $requestUrl){//Lorsqu'on utilise Request $request on on peut appeler directement le name dans l'input avec $request->link_origi
         //    $url=$_POST['shortcut'];
         /*
          * Il y  a plusieurs facons d'acceder à nos input :
@@ -24,6 +24,14 @@ class ShotUrl extends Controller
         $inputs=array_merge($requestUrl->all(),['link_origi'=>$requestUrl->input('link_origi'),'link_short'=>Url_Short::generateTextRandom()]);
         //$inputs=array_merge($requestUrl->all(),['link_origi'=>$requestUrl->input('link_origi'),'link_short'=>Url_Short::generateTextRandom()]);
         //$url2= Url_Short::where('link_origi',$request->link_origi)->first();
+       //$url2= Url_Short::where('link_origi',request('link_origi'))->first();
+
+        /*
+         * firstOrCreate([ firstOrNew il faut persister en utilisant save()
+         *          'url'=>'eterere',
+         *          'shortuct'=>"jkkj"
+         *          ])
+         * */
        $url2= Url_Short::where('link_origi',request('link_origi'))->first();
 
         if($url2){
@@ -42,8 +50,25 @@ class ShotUrl extends Controller
 
         $row2=Url_Short::create($inputs);//pour l'insertion si le url n'existe pas encore
 
-        if($row2){
+        if($row2){//row2
             return view('TEACHER.pages.shorcutvalue')->withShortcut($row2->link_short);
+        }
+
+
+    }
+    public function store(ShortUrl $requestUrl){//Lorsqu'on utilise Request $request on on peut appeler directement le name dans l'input avec $request->link_origi
+        //$inputs= request()->input('link_origi');
+        //$requestUrl->all();
+        //$val2=$requestUrl->input($inputs);
+        $url2= Url_Short::where('link_origi',request('link_origi'))->firstOrCreate(
+            [
+                'link_origi'=>$requestUrl->input('link_origi'),
+                'link_short'=>Url_Short::generateTextRandom()
+            ]
+        );
+
+        if($url2){
+            return view('TEACHER.pages.shorcutvalue')->withShortcut($url2->link_short);
         }
 
 
@@ -51,12 +76,14 @@ class ShotUrl extends Controller
     public function show($shortcut){
         /**Avec firstOrFail fait des erreur dont devrions les corriger dans App/Exception */
         $url2= Url_Short::whereLinkShort($shortcut)->firstOrFail();
-//        if(! $url2){
-//            return redirect('/shortcut-website');
-//        }else{
+        return redirect($url2->link_origi);
 
+        //Ce code ci-dessous a été transferé dans la gestion d'exception App/Exception/handler
+        /* if(!$url2){
+           return redirect('/shortcut-website');
+       }else{
             return redirect($url2->link_origi);
-        //}
+       }*/
 
     }
 }
