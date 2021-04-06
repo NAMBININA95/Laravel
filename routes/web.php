@@ -12,7 +12,9 @@
 */
 
 
+use App\Models\TEACHER\Url_Short;
 use Illuminate\Support\Facades\Route;
+use App\Http\Requests\TEACHER\ShortUrl;
 
 Route::get('/', 'HomeController@index');
 
@@ -153,7 +155,7 @@ Route::get('/shortcut-website',function (){
 
 });
 
-Route::post('/shortcut-website',function (){
+Route::post('/shortcut-website',function (ShortUrl $requestUrl){
 //    $url=$_POST['shortcut'];
     /*
      * Il y  a plusieurs facons d'acceder à nos input :
@@ -162,12 +164,29 @@ Route::post('/shortcut-website',function (){
 //    dd('Ok mandea soa post nao io');
 //    dd(request()-
 
-    $url2= App\Models\TEACHER\Url_Short::where('link_origi',request('shortcut'))->first();
+    //$url_short=$requestUrl->all();
+    $inputs=array_merge($requestUrl->all(),['link_origi'=>$requestUrl->input('link_origi'),'link_short'=>App\Models\TEACHER\Url_Short::generateTextRandom()]);
+
+    $url2= App\Models\TEACHER\Url_Short::where('link_origi',request('link_origi'))->first();
 
     if($url2){
 
         return view('TEACHER.pages.shorcutvalue')->withShortcut($url2->link_short);
 
+    }
+
+
+
+   /* $row=App\Models\TEACHER\Url_Short::create([
+        'link_origi'=>request('shortcut'),//
+        'link_short'=>App\Models\TEACHER\Url_Short::generateTextRandom()
+
+    ]);//pour l'insertion si le url n'existe pas encore*/
+
+    $row2=App\Models\TEACHER\Url_Short::create($inputs);//pour l'insertion si le url n'existe pas encore
+
+    if($row2){
+        return view('TEACHER.pages.shorcutvalue')->withShortcut($row2->link_short);
     }
 
 

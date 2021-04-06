@@ -118,3 +118,7 @@ N
 app/Helpers/Testes_Helpers.php,5\2\5215f19e2331161518f6253bd9995135d2ca36b7
 `
 0resources/views/TEACHER/pages/shortcut.blade.php,c\f\cfb57edc61d35e1aa5c3a141e1c9f7068b440c11
+P
+ app/Models/TEACHER/Url_Short.php,3\e\3e2c896142d50017371f227baf874f99e7a16ba6
+d
+4resources/views/TEACHER/pages/shorcutvalue.blade.php,4\8\483e34dda5093349d864ae44974b6b120d1ac45e
