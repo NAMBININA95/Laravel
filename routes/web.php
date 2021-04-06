@@ -147,66 +147,13 @@ Route::get('afficher-articles2',function (){
 
 });
 
+
+//---------------DEBUT RACCOURCIR LES URLS DES SITES ----------------
 //Shotcut link by my teacher
-
-Route::get('/shortcut-website',function (){
-
-    return view('TEACHER.pages.shortcut');
-
-});
-
-Route::post('/shortcut-website',function (ShortUrl $requestUrl){
-//    $url=$_POST['shortcut'];
-    /*
-     * Il y  a plusieurs facons d'acceder à nos input :
-     *      request()->get('shortcut')
-     *      request()->input('shortcut')*/
-//    dd('Ok mandea soa post nao io');
-//    dd(request()-
-
-    //$url_short=$requestUrl->all();
-    $inputs=array_merge($requestUrl->all(),['link_origi'=>$requestUrl->input('link_origi'),'link_short'=>App\Models\TEACHER\Url_Short::generateTextRandom()]);
-
-    $url2= App\Models\TEACHER\Url_Short::where('link_origi',request('link_origi'))->first();
-
-    if($url2){
-
-        return view('TEACHER.pages.shorcutvalue')->withShortcut($url2->link_short);
-
-    }
-
-
-
-   /* $row=App\Models\TEACHER\Url_Short::create([
-        'link_origi'=>request('shortcut'),//
-        'link_short'=>App\Models\TEACHER\Url_Short::generateTextRandom()
-
-    ]);//pour l'insertion si le url n'existe pas encore*/
-
-    $row2=App\Models\TEACHER\Url_Short::create($inputs);//pour l'insertion si le url n'existe pas encore
-
-    if($row2){
-        return view('TEACHER.pages.shorcutvalue')->withShortcut($row2->link_short);
-    }
-
-
-});
-Route::get('/{shortcut}',function ($shortcut){
-
-    $url2= App\Models\TEACHER\Url_Short::whereLinkShort($shortcut)->first();
-//    return redirect($url2->link_origi);
-
-    if(! $url2){
-        return redirect('/shortcut-website');
-
-
-    }else{
-
-        return redirect($url2->link_origi);
-    }
-
-
-});
+Route::get('/shortcut-website','TEACHER\ShotUrl@create');
+Route::post('/shortcut-website','TEACHER\ShotUrl@store');
+Route::get('/{shortcut}','TEACHER\ShotUrl@show');
+//---------------FIN DE RACCOURCIR LES URLS DES SITES ----------------
 
 
 
