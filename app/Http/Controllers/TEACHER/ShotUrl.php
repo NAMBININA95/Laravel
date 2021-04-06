@@ -13,7 +13,7 @@ class ShotUrl extends Controller
     public function create(){
         return view('TEACHER.pages.shortcut');
     }
-    public function store(ShortUrl $requestUrl){
+    public function store(ShortUrl $requestUrl){//Lorsqu'on utilise Request $request on on peut appeler directement le name dans l'input avec $request->link_origi
         //    $url=$_POST['shortcut'];
         /*
          * Il y  a plusieurs facons d'acceder à nos input :
@@ -22,7 +22,9 @@ class ShotUrl extends Controller
 
         //$url_short=$requestUrl->all();
         $inputs=array_merge($requestUrl->all(),['link_origi'=>$requestUrl->input('link_origi'),'link_short'=>Url_Short::generateTextRandom()]);
-        $url2= Url_Short::where('link_origi',request('link_origi'))->first();
+        //$inputs=array_merge($requestUrl->all(),['link_origi'=>$requestUrl->input('link_origi'),'link_short'=>Url_Short::generateTextRandom()]);
+        //$url2= Url_Short::where('link_origi',$request->link_origi)->first();
+       $url2= Url_Short::where('link_origi',request('link_origi'))->first();
 
         if($url2){
 
@@ -47,13 +49,14 @@ class ShotUrl extends Controller
 
     }
     public function show($shortcut){
-        $url2= Url_Short::whereLinkShort($shortcut)->first();
-        if(! $url2){
-            return redirect('/shortcut-website');
-        }else{
+        /**Avec firstOrFail fait des erreur dont devrions les corriger dans App/Exception */
+        $url2= Url_Short::whereLinkShort($shortcut)->firstOrFail();
+//        if(! $url2){
+//            return redirect('/shortcut-website');
+//        }else{
 
             return redirect($url2->link_origi);
-        }
+        //}
 
     }
 }

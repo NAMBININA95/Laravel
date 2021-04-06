@@ -26,8 +26,8 @@ return [
     |
     */
 
-    'env' => env('APP_ENV', 'production'),
-
+    'env' => env('APP_ENV', 'development'),//production --->pour le deploiment de projet laravel et development pour en mode
+    //local
     /*
     |--------------------------------------------------------------------------
     | Application Debug Mode
@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', true),// false pour le deploiement de projet laravel
 
     /*
     |--------------------------------------------------------------------------
