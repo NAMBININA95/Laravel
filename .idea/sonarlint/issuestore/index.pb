@@ -122,3 +122,25 @@ P
  app/Models/TEACHER/Url_Short.php,3\e\3e2c896142d50017371f227baf874f99e7a16ba6
 d
 4resources/views/TEACHER/pages/shorcutvalue.blade.php,4\8\483e34dda5093349d864ae44974b6b120d1ac45e
+[
++app/Http/Controllers/API/UserController.php,f\3\f3cae797cbcb5410c34784294fca1a1cc4d472a8
+P
+ resources/lang/en/validation.php,4\1\415ab399aa4b8223835e497dabc8646127974fbd
+P
+ resources/lang/fr/validation.php,d\2\d28c28e1fae14ebf5c8b61a558c75d221ef1fb7e
+W
+'resources/views/layout/header.blade.php,5\0\50ca5729e5c11c8159e868df07e91720cfc2ca8b
+[
++resources/views/layout/layoutBlog.blade.php,8\d\8da3507b40dd9374aad54ff518c690f0968fe931
+W
+'resources/views/errors/layout.blade.php,f\7\f7dee8feaa3767d486406b47d9b9160b12d3c6bd
+c
+3resources/views/errors/illustrated-layout.blade.php,a\f\af746032b393c040b91a79d44918c59213af7538
+T
+$resources/views/errors/404.blade.php,c\3\c30a91570c5ca5e6f4ad6c2a470e253e2ccf2c90
+J
+app/Exceptions/Handler.php,3\b\3badd23b42804fa4016b5b9734a7b35c12ec27e4
+V
+&app/Http/Requests/TEACHER/ShortUrl.php,d\1\d172eda5c4f6ddb62406656124b2993b6348b081
+X
+(app/Http/Controllers/TEACHER/ShotUrl.php,7\0\70a07c0d19410633a1979ccad9467af31c8ca6f1

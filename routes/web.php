@@ -15,6 +15,7 @@
 use App\Models\TEACHER\Url_Short;
 use Illuminate\Support\Facades\Route;
 use App\Http\Requests\TEACHER\ShortUrl;
+use App\Http\Requests\TEACHER\UrlShort;
 
 Route::get('/', 'HomeController@index');
 
@@ -73,7 +74,7 @@ Route::post('abonnement-emails-ok',function(){
 
 Route::resource('users-teste', 'API\UserController');
 Route::resource('post', 'API\PostsController',['except'=>['show','edit','update'/* ,'create','store' */]]);
-Route::get('post/tag/{tag}','PostsController@indexTag')->name('recherche');
+//Route::get('post/tag/{tag}','PostsController@indexTag')->name('recherche');
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
@@ -153,6 +154,15 @@ Route::get('afficher-articles2',function (){
 Route::get('/shortcut-website','TEACHER\ShotUrl@create');
 Route::post('/shortcut-website','TEACHER\ShotUrl@store');
 Route::get('/{shortcut}','TEACHER\ShotUrl@show');
+//------------------------
+Route::resource('/urlshort','TEACHER\UrlShort');
+/*Route::resource('/urlshort','TEACHER\UrlShort')->names([
+    'show'=>'Aboaho',
+    'create'=>'Lelereny'
+]);*/
+
+
+
 //---------------FIN DE RACCOURCIR LES URLS DES SITES ----------------
 
 
