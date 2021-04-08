@@ -161,6 +161,10 @@ Route::resource('/urlshort','TEACHER\UrlShort');
     'create'=>'Lelereny'
 ]);*/
 
+//Application pour Event Brote avec nos teachers
+
+Route::resource('event-brote','TEACHER\EventBrote');
+
 
 
 //---------------FIN DE RACCOURCIR LES URLS DES SITES ----------------

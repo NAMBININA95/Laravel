@@ -144,3 +144,5 @@ V
 &app/Http/Requests/TEACHER/ShortUrl.php,d\1\d172eda5c4f6ddb62406656124b2993b6348b081
 X
 (app/Http/Controllers/TEACHER/ShotUrl.php,7\0\70a07c0d19410633a1979ccad9467af31c8ca6f1
+Y
+)app/Http/Controllers/TEACHER/UrlShort.php,1\8\189c5db598aaef83a1d8248b62733a4147b8787c
