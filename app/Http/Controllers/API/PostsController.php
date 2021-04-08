@@ -27,17 +27,17 @@ class PostsController extends Controller
         $this->postRepo=$postsRepo;
      }
 
-    public function index(/* $tag */ PostModel $post_model, Post_Tags $post_Tags)
+    public function index(/* $tag */ PostModel $post_model /*Post_Tags $post_Tags*/)
     {
         //
         //$posts=$this->postRepo->getPaginate($this->nbrePerPage);
-        $posts=$this->postRepo->getPaginate($this->nbrePerPage);
+        $postss=$this->postRepo->getPaginate($this->nbrePerPage);
 //        $articles=PostModel::find($post_model->id)->tags;
-        $articles=Post_Tags::find(22);
-        $tagss=PostModel::find($post_model->id);
-        $links=$posts->render();
+        //$articles=Post_Tags::find(22);
+        //$posts=PostModel::find($post_model->id);
+        $links=$postss->render();
 //        return view('posts.liste_sansTag',compact('posts','links'));
-        return view('posts.liste',compact('posts','links','articles','tagss'));
+        return view('posts.liste',compact('postss','links'));
 
        /*  $posts=$this->postRepo->getWithUserAndTagsForTagPaginate($tag,$this->nbrePerPage);
         $links=$posts->render();

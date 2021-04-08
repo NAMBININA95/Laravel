@@ -17,13 +17,13 @@
 
 @section('contenu')
 
-    <div class="container">
-        <h1>Test pour ma ManyToMany</h1>
-        @foreach($articles->tags as $tag)
-            {{ $tag->id }}
+{{--    <div class="container">--}}
+{{--        <h1>Test pour ma ManyToMany</h1>--}}
+{{--        @foreach($articles->tags as $tag)--}}
+{{--            {{ $tag->id }}--}}
 
-        @endforeach
-    </div>
+{{--        @endforeach--}}
+{{--    </div>--}}
 
     @if (isset($info)){{-- $info --}}
             <div class="row alert alert-info">
@@ -33,11 +33,11 @@
     @endif
     {!! $links !!}
 
-    @foreach($posts as $post)
+    @foreach($postss as $post)
 
-{{--            <article class="row bg-primary">--}}
-{{--                <header>--}}
-{{--                    <h1>{{ $post->titre }}--}}
+            <article class="row bg-primary">
+                <header>
+                    <h1>{{ $post->titre }}
 
 {{--                        @foreach($post->tags as $tag)--}}
 
@@ -46,8 +46,8 @@
 {{--                        @endforeach--}}
 
 
-{{--                    </h1>--}}
-{{--                </header>--}}
+                    </h1>
+                </header>
                 <hr>
                 <section>
                     <p>{{ $post->contenu }}</p>
@@ -64,7 +64,8 @@
 
                     <em class="pull-right">
                             <span class="glyphicon glyphicon-pencil"></span>
-                            {{ $post->user->name }} le {!! $post->created_at->format('d-m-y') !!}
+				  {{ $post->user->name }} le {!! $post->created_at->format('d-m-y') !!}
+{{--                            {{ $post->user->name }} le {!! $post->created_at->format('d-m-y') !!}--}}
                     </em>
                 </section>
 

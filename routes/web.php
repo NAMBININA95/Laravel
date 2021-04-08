@@ -12,10 +12,18 @@
 */
 
 
-use App\Models\TEACHER\Url_Short;
-use Illuminate\Support\Facades\Route;
-use App\Http\Requests\TEACHER\ShortUrl;
+//use App\Models\TEACHER\Url_Short;
+//use App\Http\Requests\TEACHER\ShortUrl;
 use App\Http\Requests\TEACHER\UrlShort;
+use Illuminate\Support\Facades\Route;
+
+//event brote resource teacher
+Route::resource('/event-brote','TEACHER\EventBrote');
+Route::resource('/urlshort','TEACHER\UrlShort');
+
+
+
+
 
 Route::get('/', 'HomeController@index');
 
@@ -161,9 +169,12 @@ Route::resource('/urlshort','TEACHER\UrlShort');
     'create'=>'Lelereny'
 ]);*/
 
-//Application pour Event Brote avec nos teachers
 
-Route::resource('event-brote','TEACHER\EventBrote');
+
+//Application pour Event Brote avec nos teachers
+//Route::resource('event-brote','TEACHER\EventBrote');
+
+
 
 
 

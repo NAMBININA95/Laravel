@@ -14,7 +14,7 @@ class PostModel extends Model
     public function user()
     {
         # code...
-        return $this->belongsTo(App\User::class);
+        return $this->belongsTo('App\User');
     }
 
    public function tags(){// le nom de la table doit se correspondre dans la base de données
