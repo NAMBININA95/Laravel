@@ -146,3 +146,25 @@ X
 (app/Http/Controllers/TEACHER/ShotUrl.php,7\0\70a07c0d19410633a1979ccad9467af31c8ca6f1
 Y
 )app/Http/Controllers/TEACHER/UrlShort.php,1\8\189c5db598aaef83a1d8248b62733a4147b8787c
+C
+resources/js/app.js,8\5\857628e89e6d3e0f341720284d70b5f44c757924
+A
+public/web.config,5\b\5bbcefc384b4a84770ed68a1970dbdf1b8a42b23
+>
+webpack.mix.js,7\3\73a5f9e927f70e0292701d67f61dbff4fb17febc
+S
+#storage/logs/laravel-2021-04-07.log,4\1\419633f00d865ba5910cb9955286155c21bc1195
+<
+.styleci.yml,b\e\bef5ea44a7455cbdeddf8c96649dfae70da325af
+L
+tests/CreatesApplication.php,4\3\43b8f0664f66309f159e159cf06d0f23112208b3
+R
+"database/factories/UserFactory.php,3\4\3401747fc769758d97931473eab6222bc2abf009
+9
+	readme.md,2\7\275d783e298228506068436512433d343feb52aa
+h
+8resources/views/TEACHER/pages/EventBrote/liste.blade.php,6\7\677ca6c7ad3048e4417e55d393298e8088580fea
+V
+&app/Models/TEACHER/EventBroteModel.php,9\3\93d0abb3e12b1a0da159fe0c9454a43861f7ac7d
+[
++app/Http/Controllers/TEACHER/EventBrote.php,8\7\877494ee2ebb9c45570b6b2ba895102ee243a460

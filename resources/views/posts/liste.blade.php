@@ -25,7 +25,8 @@
 {{--        @endforeach--}}
 {{--    </div>--}}
 
-    @if (isset($info)){{-- $info --}}
+
+@if (isset($info)){{-- $info --}}
             <div class="row alert alert-info">
                     {{ $info }}
             </div>

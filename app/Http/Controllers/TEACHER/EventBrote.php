@@ -13,10 +13,13 @@ class EventBrote extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+
+	public function index()
     {
         //
 	    $liste=broteModel::get();
+	    //$liste=$this->brModel::get();
+	    //dd($liste);
 	    $inona="Alika maty ty";
 	    return view('TEACHER.pages.EventBrote.liste',compact('liste','inona'));
     }
@@ -29,6 +32,7 @@ class EventBrote extends Controller
     public function create()
     {
         //
+	    return view('TEACHER.pages.EventBrote.create');
     }
 
     /**
@@ -40,6 +44,21 @@ class EventBrote extends Controller
     public function store(Request $request)
     {
         //
+	    //return redirect(route('accueil'));
+
+	    $this->validate($request,[
+			'titre'=>'required|min:3'
+	    ]);
+	    $inputData=[
+	    	'titre'=>$request->input('titre'),
+	    	'description'=>$request->input('description'),
+	    	'lieu'=>$request->input('lieu'),
+	    	'date_event'=>$request->input('date_event'),
+	    	'time_event'=>$request->input('time_event')
+	    ];
+
+	    broteModel::create($inputData);
+	    return redirect()->route('accueil');
     }
 
     /**
@@ -51,6 +70,19 @@ class EventBrote extends Controller
     public function show($id)
     {
         //
+
+	    /**
+	    ATTENTION : FAUT PAS UTILISER BOUCLE POUR AFFICHER SUR BLADE
+	     MAIS APPEL DIRECTEMENT LES ATTRIBUT DANS LA TABLE
+	     *
+	     *----
+	     *
+	     *$recup=broteModel::withoutGlobalScopes()->findOrFail($id);
+	     */
+	    $recup=broteModel::findOrFail($id);
+	    return view('TEACHER.pages.EventBrote.show',compact('recup'));
+
+
     }
 
     /**
@@ -62,6 +94,9 @@ class EventBrote extends Controller
     public function edit($id)
     {
         //
+	    //dd('edit mandea');
+	    $recup=broteModel::findOrFail($id);
+	    return view('TEACHER.pages.EventBrote.edit',compact('recup'));
     }
 
     /**
@@ -74,6 +109,19 @@ class EventBrote extends Controller
     public function update(Request $request, $id)
     {
         //
+	    $this->validate($request,[
+		    'titre'=>'required|min:3'
+	    ]);
+	    $inputData=[
+		    'titre'=>$request->input('titre'),
+		    'description'=>$request->input('description'),
+		    'lieu'=>$request->input('lieu'),
+		    'date_event'=>$request->input('date_event'),
+		    'time_event'=>$request->input('time_event')
+	    ];
+	    $up_date=broteModel::findOrFail($id);
+	    $up_date->update($inputData);
+	    return redirect()->route('event-brote.show',$id);
     }
 
     /**
@@ -85,5 +133,7 @@ class EventBrote extends Controller
     public function destroy($id)
     {
         //
+	    broteModel::destroy($id);
+	    return redirect(route('accueil'));
     }
 }

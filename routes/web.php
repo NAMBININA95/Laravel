@@ -18,6 +18,7 @@ use App\Http\Requests\TEACHER\UrlShort;
 use Illuminate\Support\Facades\Route;
 
 //event brote resource teacher
+Route::get('/', 'TEACHER\EventBrote@index')->name('accueil');
 Route::resource('/event-brote','TEACHER\EventBrote');
 Route::resource('/urlshort','TEACHER\UrlShort');
 
@@ -25,7 +26,7 @@ Route::resource('/urlshort','TEACHER\UrlShort');
 
 
 
-Route::get('/', 'HomeController@index');
+
 
 
 /*apprendre à ajouter des variable dans html*/
