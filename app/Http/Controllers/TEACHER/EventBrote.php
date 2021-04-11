@@ -47,7 +47,11 @@ class EventBrote extends Controller
 	    //return redirect(route('accueil'));
 
 	    $this->validate($request,[
-			'titre'=>'required|min:3'
+			'titre'=>'required|min:3',
+		    'titre'=>'required',
+		    'lieu'=>'required',
+		    'date_event'=>'required',
+		    'time_event'=>'required'
 	    ]);
 	    $inputData=[
 	    	'titre'=>$request->input('titre'),

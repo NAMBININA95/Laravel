@@ -168,3 +168,27 @@ V
 &app/Models/TEACHER/EventBroteModel.php,9\3\93d0abb3e12b1a0da159fe0c9454a43861f7ac7d
 [
 +app/Http/Controllers/TEACHER/EventBrote.php,8\7\877494ee2ebb9c45570b6b2ba895102ee243a460
+F
+app/Console/Kernel.php,7\c\7cc3fc289d685e79a47c29e2cb905c549625e76b
+V
+&app/Repositories/API/UserRepo copy.php,b\1\b1a6a9702ec97100ca3f95d1e236f94bb2e50ccb
+R
+"resources/views/API/show.blade.php,a\a\aa129e9818f2533f9355f2b73491214cdfe9c82c
+i
+9resources/views/TEACHER/pages/EventBrote/create.blade.php,9\3\93db4e53d65ea91297ad46d01e6e7aee5325b45d
+g
+7resources/views/TEACHER/pages/EventBrote/edit.blade.php,d\d\ddb4b45a4d791dccbb94b804f293068ed854ed42
+g
+7resources/views/TEACHER/pages/EventBrote/show.blade.php,8\f\8fc90a1a8dedfa06cbcf8070b734584e4fa815e6
+W
+'resources/views/layout/layout.blade.php,7\0\7041ebc9ee8684cae78181ca04ba05555a132c0f
+B
+public/css/app.css,a\e\aed169877220cb60c39687eb7ae1de7d4fb7946f
+X
+(public/bootstrap/css/bootstrap-theme.css,6\4\642385abfaace930e5a28d45768d2b721b4f0d39
+I
+public/css/eventbrote.css,6\2\623a5728144e066977b3f2bbc1dc0041623fef67
+V
+&public/bootstrap/css/bootstrap.min.css,4\5\4534370c34ed36115ed261da5ce3e5770d4a1421
+`
+0resources/views/TEACHER/shared/_navbar.blade.php,c\1\c16069d59cbdd3827da858bfa7b44f07f5f9f06b
