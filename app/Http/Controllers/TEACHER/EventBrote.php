@@ -5,6 +5,15 @@ namespace App\Http\Controllers\TEACHER;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\TEACHER\EventBroteModel as broteModel;
+use App\Http\Requests\TEACHER\EventBrote as RequestBrote;
+
+/**
+
+ L'implicite Route Model Binding est un methode refactoriser le code
+ dont vous devez prendre le nom de paramètre dans le route:liste sinon cela ne fonctionnera jamais
+ on le donnant n'importe quel nom
+ Par contre vous pouvez modifier le nom de de ce paramètre grace à la commande artisan
+ */
 
 class EventBrote extends Controller
 {
@@ -41,18 +50,18 @@ class EventBrote extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(/*Request $request*/ RequestBrote $request)
     {
         //
 	    //return redirect(route('accueil'));
 
-	    $this->validate($request,[
+	 /*   $this->validate($request,[
 			'titre'=>'required|min:3',
 		    'titre'=>'required',
 		    'lieu'=>'required',
 		    'date_event'=>'required',
 		    'time_event'=>'required'
-	    ]);
+	    ]);*/
 	    $inputData=[
 	    	'titre'=>$request->input('titre'),
 	    	'description'=>$request->input('description'),
@@ -71,7 +80,7 @@ class EventBrote extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(broteModel $event_brote)
     {
         //
 
@@ -83,8 +92,10 @@ class EventBrote extends Controller
 	     *
 	     *$recup=broteModel::withoutGlobalScopes()->findOrFail($id);
 	     */
-	    $recup=broteModel::findOrFail($id);
-	    return view('TEACHER.pages.EventBrote.show',compact('recup'));
+	    //$recup=broteModel::findOrFail($id);
+
+	    //dd($event_brote);
+	    return view('TEACHER.pages.EventBrote.show',compact('event_brote'));
 
 
     }
@@ -95,12 +106,12 @@ class EventBrote extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(broteModel $event_brote)
     {
         //
 	    //dd('edit mandea');
-	    $recup=broteModel::findOrFail($id);
-	    return view('TEACHER.pages.EventBrote.edit',compact('recup'));
+	    //$recup=broteModel::findOrFail($id);
+	    return view('TEACHER.pages.EventBrote.edit',compact('event_brote'));
     }
 
     /**
@@ -110,12 +121,12 @@ class EventBrote extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(RequestBrote $request, broteModel $event_brote)
     {
         //
-	    $this->validate($request,[
+	   /* $this->validate($request,[
 		    'titre'=>'required|min:3'
-	    ]);
+	    ]);*/
 	    $inputData=[
 		    'titre'=>$request->input('titre'),
 		    'description'=>$request->input('description'),
@@ -123,8 +134,8 @@ class EventBrote extends Controller
 		    'date_event'=>$request->input('date_event'),
 		    'time_event'=>$request->input('time_event')
 	    ];
-	    $up_date=broteModel::findOrFail($id);
-	    $up_date->update($inputData);
+	    //$up_date=broteModel::findOrFail($id);
+	    $event_brote->update($inputData);
 	    return redirect()->route('event-brote.show',$id);
     }
 
@@ -134,10 +145,11 @@ class EventBrote extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(broteModel $event_brote)
     {
         //
-	    broteModel::destroy($id);
+	    //broteModel::destroy($id);
+	    $event_brote->delete();
 	    return redirect(route('accueil'));
     }
 }

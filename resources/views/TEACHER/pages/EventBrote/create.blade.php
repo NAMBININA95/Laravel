@@ -34,7 +34,7 @@
 
 					<div class="form-group {{ $errors->has('titre')? 'has-error' : '' }}">
 						<label for="description">Description</label>
-						<textarea class="form-control" name="description" id="description" cols="30" rows="10" placeholder="Description de evenement" ></textarea>
+						<textarea class="form-control" name="description" id="description" cols="30" rows="10" placeholder="Description de evenement" ></textarea><br>
 						{!! $errors->first('description','<span class="help-block">:message<span>') !!}
 					</div>
 
