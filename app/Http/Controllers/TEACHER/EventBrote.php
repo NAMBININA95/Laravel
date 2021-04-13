@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\TEACHER;
 
+use App\Models\TEACHER\EventBroteModel;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\TEACHER\EventBroteModel as broteModel;
@@ -26,7 +27,7 @@ class EventBrote extends Controller
 	public function index()
     {
         //
-	    $liste=broteModel::get();
+	    $liste=broteModel::paginate(3);
 	    //$liste=$this->brModel::get();
 	    //dd($liste);
 	    $inona="Alika maty ty";
@@ -41,7 +42,8 @@ class EventBrote extends Controller
     public function create()
     {
         //
-	    return view('TEACHER.pages.EventBrote.create');
+	    $event_brote=new EventBroteModel();
+	    return view('TEACHER.pages.EventBrote.create',compact('event_brote'));
     }
 
     /**
@@ -136,7 +138,7 @@ class EventBrote extends Controller
 	    ];
 	    //$up_date=broteModel::findOrFail($id);
 	    $event_brote->update($inputData);
-	    return redirect()->route('event-brote.show',$id);
+	    return redirect()->route('event-brote.show',$event_brote->id);
     }
 
     /**

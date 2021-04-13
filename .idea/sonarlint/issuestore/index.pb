@@ -192,3 +192,9 @@ V
 &public/bootstrap/css/bootstrap.min.css,4\5\4534370c34ed36115ed261da5ce3e5770d4a1421
 `
 0resources/views/TEACHER/shared/_navbar.blade.php,c\1\c16069d59cbdd3827da858bfa7b44f07f5f9f06b
+X
+(app/Http/Requests/TEACHER/EventBrote.php,8\9\89502802e00d6c7a2fadf5554ef2b862222eb263
+c
+3resources/views/vendor/pagination/default.blade.php,4\9\49a506f60b4f465c9cd12984d3eab888759fc308
+s
+Cresources/views/TEACHER/shared/FormInhretence/_eventbrote.blade.php,4\7\4751df0b1db8e21418e2075f1c0daf807008e774

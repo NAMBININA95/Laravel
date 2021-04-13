@@ -15,14 +15,14 @@
 				<h1>Nouveau Event</h1>
 				<form class="form" action="{{ route('event-brote.store') }}" method="post">
 					@csrf
-					<div class="form-group {{ $errors->has('titre')? 'has-error' : '' }}">
+					{{--<div class="form-group {{ $errors->has('titre')? 'has-error' : '' }}">
 						<label for="titre">Titre</label>
-						<input class="form-control" type="text" name="titre" id="titre" placeholder="Titre" value="{{ old('titre') ?? '' }}">
+						<input class="form-control" type="text" name="titre" id="titre" placeholder="Titre" value="{{ old('titre') ?? '' }}">--}}
 						{{--		<input type="text" name="titre" id="" placeholder="Titre" value="{{ old('titre')? old('titre'): $recup->titre }}"><br>--}}
 						{{--		<input type="text" name="titre" id="" placeholder="Titre" value="{{ old('titre') ?? $recup->titre  }}"><br>   PHP 7--}}
 						{{--		<input type="text" name="titre" id="" placeholder="Titre" value="{{ $recup->titre }}"><br>--}}
 						{{--		<input type="text" name="titre" id="" placeholder="Titre" value="{{ $recup->titre }}"><br>--}}
-						{!! $errors->first('titre','<span class="help-block">:message<span>') !!}
+					{{--	{!! $errors->first('titre','<span class="help-block">:message<span>') !!}
 
 					</div>
 
@@ -48,12 +48,14 @@
 						<label for="time_event">Heure</label>
 						<input type="time" class="form-control" name="time_event" id="time_event"  value="{{ old('time_event') ?? '' }}" placeholder="Date evenement">
 						{!! $errors->first('time_event','<span class="help-block">:message<span>') !!}
-					</div>
+					</div>--}}
 
 					{{--		 echo date('Y-m-d');--}}
 
 
-						<button class="btn btn-success" type="submit">Envoyer</button>
+					@include('TEACHER.shared.FormInhretence._eventbrote',['submitForm'=>'Envoyer'])
+
+{{--						<button class="btn btn-success" type="submit">Envoyer</button>--}}
 						<button class="btn btn-warning" type="reset">Annuler</button>
 
 

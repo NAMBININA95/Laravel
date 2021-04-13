@@ -23,6 +23,8 @@
 
 						<li><a href="{{ route('event-brote.show',['brote'=>$eventbrote->id]) }}">{{ $eventbrote->titre }}</a></li>
 					@endforeach
+						<hr>
+					{{ $liste->links('vendor.pagination.default') }}
 
 				@else
 					<h6>Aucun evenement</h6>
