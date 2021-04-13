@@ -16,6 +16,18 @@ if(!function_exists('format_dates')){
 
 }
 
+if(!function_exists('flash_customs')){
+
+	function flash_customs($msg,$type="success"){
+
+		session()->flash('notification.message',$msg);
+		session()->flash('notification.type',$type);
+
+	}
+
+}
+
+
 class Test_Helpers{
     public static function verif_nbre_paire($articles){
         if($articles->isPair()){
