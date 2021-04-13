@@ -148,7 +148,7 @@ class EventBrote extends Controller
 	  /*  session()->flash('notification.message','Votre evenement a été modifier avec succès '.$request->input('titre'). ' .');
 	    session()->flash('notification.type','success');*/
 	    flash_customs('Votre evenement a été modifier avec succès '.$request->input('titre'). ' .');//Ceci est un message flash avec le sessions
-	    return redirect()->route('event-brote.show',$event_brote->id);
+	    return redirect()->route('event-brote.show',$event_brote->slug);
     }
 
     /**
