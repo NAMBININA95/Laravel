@@ -21,7 +21,7 @@
                                     <hr>
                                 @endif--}}
 
-						<li><a href="{{ route('event-brote.show',['brote'=>$eventbrote->id]) }}">{{ $eventbrote->titre }}</a></li>
+						<li><a href="{{ route('event-brote.show',$eventbrote->slug) }}">{{ $eventbrote->titre }}</a></li>
 					@endforeach
 						<hr>
 					{{ $liste->links('vendor.pagination.default') }}

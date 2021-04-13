@@ -7,7 +7,7 @@
 {{--			class="col-xs-6 col-sm-6 col-md-6 col-lg-6"--}}
 			<div style="margin: auto;">
 				<h1>Modification Event</h1>
-				<form class="form" action="{{ route('event-brote.update',$event_brote->id) }}" method="post">
+				<form class="form" action="{{ route('event-brote.update',$event_brote->slug) }}" method="post">
 					@csrf
 					@method('put')
 

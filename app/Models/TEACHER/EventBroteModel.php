@@ -19,9 +19,14 @@ class EventBroteModel extends Model
 	protected $dates=['date_event'];
 
 
-	public function getRouteKey()//ceci permet de recuperer id dans le paramètre d route
+	public function getRouteKeyName()//ceci permet de recuperer id dans le paramètre d route
 	{
-		return parent::getRouteKey();
+		//return parent::getRouteKey();
+		//Maintenant noous allons utiliser le slug comme identifiant
+		//dont le par défaut est le primaryKey="id"
+		//A present faut maintenant changer ou pas id car il reconnait automatiquement
+
+		return 'slug';
 
 	}
 }
