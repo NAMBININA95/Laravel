@@ -73,6 +73,8 @@ class EventBrote extends Controller
 	    ];
 
 	    broteModel::create($inputData);
+	    session()->flash('notification.message','Votre evenement a été enregistrer avec succès '.$request->input('titre'). ' .');
+	    session()->flash('notification.type','success');
 	    return redirect()->route('accueil');
     }
 
@@ -138,6 +140,8 @@ class EventBrote extends Controller
 	    ];
 	    //$up_date=broteModel::findOrFail($id);
 	    $event_brote->update($inputData);
+	    session()->flash('notification.message','Votre evenement a été modifier avec succès '.$request->input('titre'). ' .');
+	    session()->flash('notification.type','success');
 	    return redirect()->route('event-brote.show',$event_brote->id);
     }
 
@@ -152,6 +156,8 @@ class EventBrote extends Controller
         //
 	    //broteModel::destroy($id);
 	    $event_brote->delete();
+	    session()->flash('notification.message','Votre evenement a été supprimer avec succès numéro : '.$event_brote->id. ' .');
+	    session()->flash('notification.type','danger');
 	    return redirect(route('accueil'));
     }
 }

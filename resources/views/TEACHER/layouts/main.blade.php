@@ -6,8 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-	<link rel="stylesheet" href="{{ asset('./bootstrap/css/bootstrap.css') }}">
-	<link rel="stylesheet" href="{{ asset('./css/eventbrote.css') }}">
+	<link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.css') }}">
+	<link rel="stylesheet" href="{{ asset('css/eventbrote.css') }}">
 {{--	<link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap-theme.css') }}">--}}
 
     <title>Cours Laravel par Georges Nambinina </title>
@@ -18,9 +18,29 @@
 
 @include('TEACHER.shared._navbar')
 
-@yield('contenu')
+<div class="container">
+
+	@if(session()->has('notification.message'))
+		<div class="alert alert-{{ session('notification.type') }}">
+			<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+			<strong>{{ session()->get('notification.message') }}</strong>
+			{{--<strong>Création Event</strong> {{ session('message') }} --}}
+		</div>
+	@endif
+
+
+	@yield('contenu')
+
+</div>
+
 
 
 </body>
-{{--@yield('myscriptJs')--}}
+<script src="{{ asset('bootstrap/js/jqueryFrame.js') }}"></script>
+<script src="{{ asset('bootstrap/js/bootstrap.js') }}"></script>
+<script>
+	$(document).ready(function () {
+		//alert('Jquery mandea');
+	})
+</script>
 </html>
