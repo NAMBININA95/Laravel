@@ -4,6 +4,7 @@ namespace App\Http\Controllers\TEACHER;
 
 use App\Models\TEACHER\EventBroteModel;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 use App\Http\Controllers\Controller;
 use App\Models\TEACHER\EventBroteModel as broteModel;
 use App\Http\Requests\TEACHER\EventBrote as RequestBrote;
@@ -68,6 +69,7 @@ class EventBrote extends Controller
 	    	'titre'=>$request->input('titre'),
 	    	'description'=>$request->input('description'),
 	    	'lieu'=>$request->input('lieu'),
+		'slug'=>Str::slug($request->input('titre')),
 	    	'date_event'=>$request->input('date_event'),
 	    	'time_event'=>$request->input('time_event')
 	    ];
@@ -137,6 +139,7 @@ class EventBrote extends Controller
 		    'titre'=>$request->input('titre'),
 		    'description'=>$request->input('description'),
 		    'lieu'=>$request->input('lieu'),
+		    'slug'=>Str::slug($request->input('titre')),
 		    'date_event'=>$request->input('date_event'),
 		    'time_event'=>$request->input('time_event')
 	    ];

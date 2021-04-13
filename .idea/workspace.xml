@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c5239593-8d0d-45eb-80e6-d02e0790a44a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TEACHER/EventBrote.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TEACHER/EventBrote.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/TEACHER/EventBroteModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/TEACHER/EventBroteModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/TEACHER/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/TEACHER/layouts/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/show.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,20 +58,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/show.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TEACHER/EventBrote.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="146" column="48" selection-start-line="146" selection-start-column="48" selection-end-line="146" selection-end-column="48" />
+            <state relative-caret-position="221">
+              <caret line="140" column="38" lean-forward="true" selection-start-line="140" selection-start-column="38" selection-end-line="140" selection-end-column="38" />
+              <folding>
+                <element signature="e#48#87#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/liste.blade.php">
+        <entry file="file://$PROJECT_DIR$/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            <state relative-caret-position="312">
+              <caret line="230" column="43" selection-start-line="230" selection-start-column="17" selection-end-line="230" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -77,8 +91,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/layouts/main.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="64" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
+            <state relative-caret-position="748">
+              <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/TEACHER/EventBroteModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -109,6 +132,8 @@
       <find>lux</find>
       <find>$recup</find>
       <find>store</find>
+      <find>slug</find>
+      <find>Str</find>
     </findStrings>
     <replaceStrings>
       <replace>abonnement</replace>
@@ -167,20 +192,20 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/API/PostsController.php" />
         <option value="$PROJECT_DIR$/app/Models/API/PostModel.php" />
-        <option value="$PROJECT_DIR$/app/Models/TEACHER/EventBroteModel.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/posts/liste.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/TEACHER/shared/_navbar.blade.php" />
         <option value="$PROJECT_DIR$/public/css/eventbrote.css" />
         <option value="$PROJECT_DIR$/app/Http/Requests/TEACHER/EventBrote.php" />
-        <option value="$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/pagination/default.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/liste.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/TEACHER/shared/FormInhretence/_eventbrote.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/TEACHER/layouts/main.blade.php" />
         <option value="$PROJECT_DIR$/app/helpers.php" />
+        <option value="$PROJECT_DIR$/resources/views/TEACHER/layouts/main.blade.php" />
+        <option value="$PROJECT_DIR$/app/Models/TEACHER/EventBroteModel.php" />
+        <option value="$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TEACHER/EventBrote.php" />
       </list>
     </option>
@@ -281,7 +306,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-89" />
     <option name="y" value="41" />
     <option name="width" value="1382" />
@@ -306,7 +331,7 @@
             <path>
               <item name="cours" type="b2602c69:ProjectViewProjectNode" />
               <item name="cours" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,7 +352,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -407,7 +432,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188183000" />
+    <option name="totallyTimeSpent" value="191598000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -436,7 +461,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32847896" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.328" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5408" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.8336" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32847896" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32847896" />
       <window_info anchor="bottom" id="Tail" order="12" />
@@ -448,7 +473,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.20347957" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.20347957" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48192772" visible="true" weight="0.22844176" />
@@ -499,45 +524,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="hello world avec laravel 5.8 artisan" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Models/TEACHER/articles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="34" column="15" lean-forward="true" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/API/Post_Tags.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/API/Tags.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634/schema/laravel58/table/users" />
-    <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-          <folding>
-            <element signature="e#34#48#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/DateInjection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/ServiceInjectionUtilities/DateInjection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -734,13 +720,6 @@
       </provider>
     </entry>
     <entry file="das://330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634/schema/laravel58/table/eventbrote" />
-    <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -748,13 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/TEACHER/EventBroteModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -796,13 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/layouts/main.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="64" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/liste.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -810,10 +775,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634/schema/laravel58/table/eventbrote">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="2eae1970-7154-4edb-a983-19348144baa3">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634/schema/laravel58/table/eventbrote">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="2eae1970-7154-4edb-a983-19348144baa3">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634/schema/laravel58/table/eventbrote">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="2eae1970-7154-4edb-a983-19348144baa3">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634/schema/laravel58/table/eventbrote">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="2eae1970-7154-4edb-a983-19348144baa3">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Str.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="448" column="36" selection-start-line="448" selection-start-column="32" selection-end-line="448" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/layouts/main.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/TEACHER/EventBroteModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="230" column="43" selection-start-line="230" selection-start-column="17" selection-end-line="230" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TEACHER/EventBrote.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="146" column="48" selection-start-line="146" selection-start-column="48" selection-end-line="146" selection-end-column="48" />
+        <state relative-caret-position="221">
+          <caret line="140" column="38" lean-forward="true" selection-start-line="140" selection-start-column="38" selection-end-line="140" selection-end-column="38" />
+          <folding>
+            <element signature="e#48#87#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

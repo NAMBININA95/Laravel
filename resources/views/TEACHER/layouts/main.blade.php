@@ -41,6 +41,15 @@
 <script>
 	$(document).ready(function () {
 		//alert('Jquery mandea');
-	})
+		// $('.effacer-event').submit(function () {
+		// 	confirm('Etes-vous sur de vouloir supprimer cet évenement ? ')
+		// })
+	});
+
+	$('.form-supprimer').submit(function() {
+		//event.preventDefault();
+		return confirm('Etes-vous sur de vouloir supprimer cet évenement ? ');
+
+	});
 </script>
 </html>
