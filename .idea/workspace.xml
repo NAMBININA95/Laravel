@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5239593-8d0d-45eb-80e6-d02e0790a44a" name="Default" comment="version officiel sans modification laravel 5.8 artisan">
-      <change afterPath="$PROJECT_DIR$/resources/views/TEACHER/shared/FormInhretence/_eventbrote.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/677ca6c7ad3048e4417e55d393298e8088580fea" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/677ca6c7ad3048e4417e55d393298e8088580fea" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b9a783d9b43fee50fd28f56dbd1856d2608f305" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b9a783d9b43fee50fd28f56dbd1856d2608f305" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/877494ee2ebb9c45570b6b2ba895102ee243a460" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/877494ee2ebb9c45570b6b2ba895102ee243a460" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TEACHER/EventBrote.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TEACHER/EventBrote.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/liste.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/liste.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="c5239593-8d0d-45eb-80e6-d02e0790a44a" name="Default" comment="version officiel sans modification laravel 5.8 artisan" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,56 +52,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/shared/FormInhretence/_eventbrote.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TEACHER/EventBrote.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
-              <folding>
-                <element signature="e#48#87#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/TEACHER/EventBroteModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/edit.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/create.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -309,7 +249,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-89" />
     <option name="y" value="41" />
     <option name="width" value="1382" />
@@ -456,7 +396,7 @@
       <workItem from="1618070225640" duration="5420000" />
       <workItem from="1618125785893" duration="10372000" />
       <workItem from="1618297906002" duration="2676000" />
-      <workItem from="1618300772236" duration="290000" />
+      <workItem from="1618300772236" duration="536000" />
     </task>
     <task id="LOCAL-00001" summary="hello world avec laravel 5.8 artisan">
       <created>1611502945404</created>
@@ -469,7 +409,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184906000" />
+    <option name="totallyTimeSpent" value="185152000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -481,8 +421,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48192772" visible="true" weight="0.22239032" />
       <window_info id="Structure" order="1" weight="0.24962178" />
@@ -886,13 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/shared/FormInhretence/_eventbrote.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -902,8 +834,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
+        <state relative-caret-position="377">
           <caret line="52" column="54" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/shared/FormInhretence/_eventbrote.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
