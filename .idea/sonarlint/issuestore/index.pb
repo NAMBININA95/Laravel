@@ -198,3 +198,11 @@ c
 3resources/views/vendor/pagination/default.blade.php,4\9\49a506f60b4f465c9cd12984d3eab888759fc308
 s
 Cresources/views/TEACHER/shared/FormInhretence/_eventbrote.blade.php,4\7\4751df0b1db8e21418e2075f1c0daf807008e774
+O
+app/Models/Traits/SlugRoute.php,9\5\9583635a62325495b4de07beab624684d3494cf1
+R
+"app/Models/Traits/SlugCreating.php,1\c\1c255f28a8e311765aeb124aefa41e76441a572a
+R
+"public/bootstrap/css/bootstrap.css,3\1\310f0abd2b718007dbe168c96a048480b689037c
+P
+ public/bootstrap/js/bootstrap.js,c\3\c3737534364e93736c2f75bf7e76fdb94153ad82

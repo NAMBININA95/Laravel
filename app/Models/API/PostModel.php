@@ -11,7 +11,7 @@ class PostModel extends Model
     protected $primaryKey = 'id';
     protected $fillable=['titre','contenu','user_id'];
 
-    public function user()
+    public function users_perso()
     {
         # code...
         return $this->belongsTo('App\User');

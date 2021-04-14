@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('bootstrap/css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
    {{--  <link href="{{ asset('bootstrap/css/bootstrap.css') }}" rel="stylesheet"> --}}
 </head>
 <body>
@@ -78,5 +78,5 @@
     </div>
 </body>
  <!-- Scripts -->
- <script src="{{ asset('bootstrap/js/app.js') }}" defer></script>
+ <script src="{{ asset('js/app.js') }}" defer></script>
 </html>
