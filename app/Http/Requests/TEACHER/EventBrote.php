@@ -27,6 +27,7 @@ class EventBrote extends FormRequest
 		  'titre'=>'required|min:3',
 		  'titre'=>'required',
 		  'lieu'=>'required',
+		  'description'=>'required',
 		  'date_event'=>'required',
 		  'time_event'=>'required'
         ];

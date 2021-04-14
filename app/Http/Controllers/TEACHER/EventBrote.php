@@ -8,6 +8,7 @@ use Illuminate\Support\Str;
 use App\Http\Controllers\Controller;
 use App\Models\TEACHER\EventBroteModel as broteModel;
 use App\Http\Requests\TEACHER\EventBrote as RequestBrote;
+use mysql_xdevapi\Session;
 
 /**
 
@@ -148,6 +149,7 @@ class EventBrote extends Controller
 	  /*  session()->flash('notification.message','Votre evenement a été modifier avec succès '.$request->input('titre'). ' .');
 	    session()->flash('notification.type','success');*/
 	    flash_customs('Votre evenement a été modifier avec succès '.$request->input('titre'). ' .');//Ceci est un message flash avec le sessions
+	    session()->flash('success','ok');
 	    return redirect()->route('event-brote.show',$event_brote->slug);
     }
 
