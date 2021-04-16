@@ -206,3 +206,7 @@ R
 "public/bootstrap/css/bootstrap.css,3\1\310f0abd2b718007dbe168c96a048480b689037c
 P
  public/bootstrap/js/bootstrap.js,c\3\c3737534364e93736c2f75bf7e76fdb94153ad82
+S
+#database/seeds/PostsTableSeeder.php,5\4\54cb520adfee65730638892fbf4b73e2365920d4
+U
+%resources/views/layouts/app.blade.php,4\e\4e52e2a63befd1dc69600001e78b80ebece1ac9b

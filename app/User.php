@@ -16,7 +16,17 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password','admin','NOM','PRENOM','ADRESSE','TELEPHONE','POINTSPIZZA',
+        'name',
+	    'email',
+	    'password',
+	    'admin',
+	    'NOM',
+	    'PRENOM',
+	    'ADRESSE',
+	    'TELEPHONE',
+	    'POINTSPIZZA',
+	    'PHOTO',
+	    'ID_ROLE'
     ];
     protected $primaryKey = 'id';
     protected $table="users_perso";
@@ -39,6 +49,7 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
+    public $timestamps=false;
     public function posts()
     {
         # code...

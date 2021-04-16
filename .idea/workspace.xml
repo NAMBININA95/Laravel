@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5239593-8d0d-45eb-80e6-d02e0790a44a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e92ff15dd02e679a9c48c1fc7e1b005c24dee00" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e92ff15dd02e679a9c48c1fc7e1b005c24dee00" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/677ca6c7ad3048e4417e55d393298e8088580fea" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/677ca6c7ad3048e4417e55d393298e8088580fea" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b9a783d9b43fee50fd28f56dbd1856d2608f305" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b9a783d9b43fee50fd28f56dbd1856d2608f305" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/877494ee2ebb9c45570b6b2ba895102ee243a460" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/877494ee2ebb9c45570b6b2ba895102ee243a460" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/89502802e00d6c7a2fadf5554ef2b862222eb263" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/89502802e00d6c7a2fadf5554ef2b862222eb263" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93d0abb3e12b1a0da159fe0c9454a43861f7ac7d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93d0abb3e12b1a0da159fe0c9454a43861f7ac7d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4e86729a75ea63e20d5d48c87f54a3aac8f0959" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4e86729a75ea63e20d5d48c87f54a3aac8f0959" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/web Original.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a6ac605e3bb1ec02c64cf475560e09f4b6f5111" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a6ac605e3bb1ec02c64cf475560e09f4b6f5111" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bfb05dc7f9d1708ffc561e370a53ad2df3db646" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bfb05dc7f9d1708ffc561e370a53ad2df3db646" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/5158cc6821d0344345606af2834807beae093242" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/5158cc6821d0344345606af2834807beae093242" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/API/PostModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/API/PostModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,120 +51,23 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="laravel58: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - laravel58@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="laravel58: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="users_perso: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://DATABASE/330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>DATABASE</ID>
-              <OriginalElement>330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634</OriginalElement>
-              <nodes>
-                <node x="659.0" y="462.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.commande</node>
-                <node x="-72.56053580628543" y="150.774343122102">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.ingredient</node>
-                <node x="1387.5" y="865.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.abonnement</node>
-                <node x="1126.0" y="121.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.vehicule</node>
-                <node x="998.5" y="865.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.url_short</node>
-                <node x="800.5" y="865.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.migrations</node>
-                <node x="102.75" y="1351.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag</node>
-                <node x="404.5" y="865.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.eventbrote</node>
-                <node x="10.5" y="1141.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts</node>
-                <node x="602.5" y="865.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.role</node>
-                <node x="206.5" y="1152.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tags</node>
-                <node x="377.99999999999994" y="0.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users_perso</node>
-                <node x="71.36111111111109" y="605.5">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pizza_ingredient</node>
-                <node x="941.0" y="143.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tarification</node>
-                <node x="768.0" y="143.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.ville</node>
-                <node x="595.0" y="143.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pays</node>
-                <node x="1192.5" y="865.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.password_resets</node>
-                <node x="0.0" y="865.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users_original</node>
-                <node x="184.88717156105093" y="163.09737248840804">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pizza</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.commande" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users_perso">
-                  <point x="-49.5" y="-179.0" />
-                  <point x="708.5" y="432.0" />
-                  <point x="476.49999999999994" y="432.0" />
-                  <point x="0.0" y="201.0" />
-                </edge>
-                <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts">
-                  <point x="-44.0" y="-69.0" />
-                  <point x="146.75" y="1326.0" />
-                  <point x="98.5" y="1326.0" />
-                  <point x="0.0" y="80.0" />
-                </edge>
-                <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pizza_ingredient" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.ingredient">
-                  <point x="-40.25" y="-35.5" />
-                  <point x="111.61111111111109" y="442.0" />
-                  <point x="80.5" y="442.0" />
-                  <point x="0.0" y="58.0" />
-                </edge>
-                <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.commande" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tarification">
-                  <point x="49.5" y="-179.0" />
-                  <point x="807.5" y="432.0" />
-                  <point x="1023.5" y="432.0" />
-                  <point x="0.0" y="58.0" />
-                </edge>
-                <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.commande" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.ville">
-                  <point x="16.5" y="-179.0" />
-                  <point x="774.5" y="422.0" />
-                  <point x="844.5" y="422.0" />
-                  <point x="0.0" y="58.0" />
-                </edge>
-                <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.commande" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pizza">
-                  <point x="-82.5" y="-179.0" />
-                  <point x="675.5" y="442.0" />
-                  <point x="313.74999999999994" y="442.0" />
-                  <point x="44.25" y="69.0" />
-                </edge>
-                <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users_original">
-                  <point x="0.0" y="-80.0" />
-                  <point x="0.0" y="113.0" />
-                </edge>
-                <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tags">
-                  <point x="44.0" y="-69.0" />
-                  <point x="234.75" y="1326.0" />
-                  <point x="283.0" y="1326.0" />
-                  <point x="0.0" y="69.0" />
-                </edge>
-                <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.commande" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.vehicule">
-                  <point x="82.5" y="-179.0" />
-                  <point x="840.5" y="442.0" />
-                  <point x="1220.5" y="442.0" />
-                  <point x="0.0" y="80.0" />
-                </edge>
-                <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pizza_ingredient" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pizza">
-                  <point x="40.25" y="-35.5" />
-                  <point x="192.1111111111111" y="442.0" />
-                  <point x="225.24999999999994" y="442.0" />
-                  <point x="-44.25" y="69.0" />
-                </edge>
-                <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.commande" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pays">
-                  <point x="-16.5" y="-179.0" />
-                  <point x="741.5" y="422.0" />
-                  <point x="671.5" y="422.0" />
-                  <point x="0.0" y="58.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.7717693836978131" x="-111.02627511591965" y="725.9737248840804" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Key columns</Category>
-                <Category>Columns</Category>
-              </Categories>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+            <state relative-caret-position="326">
+              <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -223,25 +120,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="teacher-du-net" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/TEACHER/shared/_service_weekend.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/TEACHER/pages/service_injection.blade.php" />
-        <option value="$PROJECT_DIR$/app/Services/DateInjection.php" />
-        <option value="$PROJECT_DIR$/resources/views/TEACHER/shared/service_weekend.blade.php" />
-        <option value="$PROJECT_DIR$/app/Helpers/statistiques.php" />
-        <option value="$PROJECT_DIR$/app/Helpers/Test_Helpers.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/Helpers/Testes_Helpers.php" />
-        <option value="$PROJECT_DIR$/alias.bat" />
-        <option value="$USER_HOME$/Desktop/AliasLaravel/alias.bat" />
-        <option value="$PROJECT_DIR$/resources/views/TEACHER/pages/affichage.blade.php" />
-        <option value="$PROJECT_DIR$/app/Models/TEACHER/articles.php" />
         <option value="$PROJECT_DIR$/resources/views/TEACHER/pages/shorcutvalue.blade.php" />
         <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/app/Models/TEACHER/Url_Short.php" />
@@ -256,7 +141,6 @@
         <option value="$PROJECT_DIR$/MyDoc.txt" />
         <option value="$PROJECT_DIR$/.editorconfig" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/API/PostsController.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/posts/liste.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/TEACHER/shared/_navbar.blade.php" />
         <option value="$PROJECT_DIR$/public/css/eventbrote.css" />
@@ -277,10 +161,23 @@
         <option value="E:/Laravel/Langue Laravel/users.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Models/API/PostModel.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/app/Models/Livraison/Commande.php" />
+        <option value="$PROJECT_DIR$/app/Models/Livraison/Ingradient.php" />
+        <option value="$PROJECT_DIR$/app/Models/Livraison/IngrEdient.php" />
+        <option value="$PROJECT_DIR$/app/Models/Livraison/Ingredient.php" />
+        <option value="$PROJECT_DIR$/app/Models/Livraison/Pays.php" />
+        <option value="$PROJECT_DIR$/app/Models/Livraison/Pizza.php" />
+        <option value="$PROJECT_DIR$/app/Models/Livraison/PizzaIngredient.php" />
+        <option value="$PROJECT_DIR$/app/Models/Livraison/Role.php" />
+        <option value="$PROJECT_DIR$/app/Models/Livraison/Tarification.php" />
+        <option value="$PROJECT_DIR$/app/Models/Livraison/Vehicule.php" />
+        <option value="$PROJECT_DIR$/app/Models/Livraison/Ville.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
       </list>
     </option>
   </component>
@@ -405,25 +302,13 @@
             <path>
               <item name="cours" type="b2602c69:ProjectViewProjectNode" />
               <item name="cours" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cours" type="b2602c69:ProjectViewProjectNode" />
               <item name="cours" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cours" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cours" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cours" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cours" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -440,22 +325,23 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/routes" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\cours\routes" />
+      <recent name="C:\wamp64\www\cours\public" />
+      <recent name="C:\wamp64\www\cours\app\Services" />
+      <recent name="E:\Laravel\code\cours\database\migrations" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\cours\public\bootstrap\css" />
       <recent name="C:\wamp64\www\cours\public\js" />
       <recent name="C:\wamp64\www\cours\public\css" />
       <recent name="E:\Laravel\code\cours\database\migrations\default" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\cours\public" />
-      <recent name="C:\wamp64\www\cours\app\Services" />
-      <recent name="E:\Laravel\code\cours\database\migrations" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -511,7 +397,9 @@
       <workItem from="1618125785893" duration="10372000" />
       <workItem from="1618297906002" duration="2676000" />
       <workItem from="1618300772236" duration="536000" />
-      <workItem from="1618392450800" duration="5588000" />
+      <workItem from="1618392450800" duration="6413000" />
+      <workItem from="1618511183843" duration="2178000" />
+      <workItem from="1618586403788" duration="3411000" />
     </task>
     <task id="LOCAL-00001" summary="hello world avec laravel 5.8 artisan">
       <created>1611502945404</created>
@@ -524,7 +412,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211081000" />
+    <option name="totallyTimeSpent" value="217495000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -539,7 +427,7 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48192772" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48192772" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" weight="0.24962178" />
       <window_info id="npm" order="2" sideWeight="0.5180723" side_tool="true" weight="0.2706422" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -553,7 +441,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32847896" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.328" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.7776" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4064" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.328" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32847896" />
       <window_info anchor="bottom" id="Tail" order="12" />
@@ -565,7 +453,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.22919819" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.17019667" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48192772" visible="true" weight="0.22844176" />
@@ -616,173 +504,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="hello world avec laravel 5.8 artisan" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/pages/affichage.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="79" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="80" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bootstrap/css/bootstrap-theme.css" />
-    <entry file="file://$PROJECT_DIR$/public/bootstrap2/js/app.js" />
-    <entry file="file://$PROJECT_DIR$/resources/views/posts/liste.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/API/PostsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding>
-            <element signature="e#44#72#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bootstrap/css/bootstrap.min.css" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/phpstorm64.exe.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/shared/_navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/eventbrote.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/vendor/pagination/default.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="53" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Str.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="448" column="36" selection-start-line="448" selection-start-column="32" selection-end-line="448" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="230" column="43" selection-start-line="230" selection-start-column="17" selection-end-line="230" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634/schema/laravel58/table/eventbrote">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="2eae1970-7154-4edb-a983-19348144baa3">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/TEACHER/articles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/TEACHER/pages/EventBrote/liste.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="1465" column="37" lean-forward="true" selection-start-line="1465" selection-start-column="37" selection-end-line="1465" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="123" column="46" lean-forward="true" selection-start-line="123" selection-start-column="46" selection-end-line="123" selection-end-column="46" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Traits/SlugRoute.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Traits/SlugCreating.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/TEACHER/EventBroteModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1474">
-          <caret line="67" column="42" lean-forward="true" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
-          <folding>
-            <element signature="e#38#85#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -865,43 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://DATABASE/330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.SCHEMA:laravel58">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.SCHEMA:laravel58</OriginalElement>
-          <nodes>
-            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.ville</node>
-            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.ingredient</node>
-            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.abonnement</node>
-            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.vehicule</node>
-            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.url_short</node>
-            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pizza_ingredient</node>
-            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag</node>
-            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.eventbrote</node>
-            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts</node>
-            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.role</node>
-            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tags</node>
-            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users_perso</node>
-            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.password_resets</node>
-            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tarification</node>
-            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pays</node>
-            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.commande</node>
-            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.migrations</node>
-            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users_original</node>
-            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pizza</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.9772696704774713" x="560.7458711808424" y="267.0241535920727" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634/schema/laravel58/table/role">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="0ee6f60a-4b50-4c91-b77b-670fa4752b4b">
@@ -925,24 +613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/API/PostModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/PostsTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -981,94 +655,137 @@
           <ID>DATABASE</ID>
           <OriginalElement>330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634</OriginalElement>
           <nodes>
-            <node x="659.0" y="462.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.commande</node>
-            <node x="-72.56053580628543" y="150.774343122102">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.ingredient</node>
-            <node x="1387.5" y="865.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.abonnement</node>
-            <node x="1126.0" y="121.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.vehicule</node>
-            <node x="998.5" y="865.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.url_short</node>
-            <node x="800.5" y="865.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.migrations</node>
-            <node x="102.75" y="1351.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag</node>
-            <node x="404.5" y="865.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.eventbrote</node>
-            <node x="10.5" y="1141.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts</node>
-            <node x="602.5" y="865.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.role</node>
-            <node x="206.5" y="1152.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tags</node>
-            <node x="377.99999999999994" y="0.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users_perso</node>
-            <node x="71.36111111111109" y="605.5">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pizza_ingredient</node>
-            <node x="941.0" y="143.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tarification</node>
-            <node x="768.0" y="143.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.ville</node>
-            <node x="595.0" y="143.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pays</node>
-            <node x="1192.5" y="865.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.password_resets</node>
-            <node x="0.0" y="865.0">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users_original</node>
-            <node x="184.88717156105093" y="163.09737248840804">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pizza</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.role</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.eventbrote</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.abonnement</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.vehicule</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.url_short</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pizza_ingredient</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.password_resets</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.ingredient</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tags</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users_perso</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tarification</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.ville</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pays</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.commande</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.migrations</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users_original</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pizza</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.commande" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users_perso">
-              <point x="-49.5" y="-179.0" />
-              <point x="708.5" y="432.0" />
-              <point x="476.49999999999994" y="432.0" />
-              <point x="0.0" y="201.0" />
-            </edge>
-            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts">
-              <point x="-44.0" y="-69.0" />
-              <point x="146.75" y="1326.0" />
-              <point x="98.5" y="1326.0" />
-              <point x="0.0" y="80.0" />
-            </edge>
-            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pizza_ingredient" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.ingredient">
-              <point x="-40.25" y="-35.5" />
-              <point x="111.61111111111109" y="442.0" />
-              <point x="80.5" y="442.0" />
-              <point x="0.0" y="58.0" />
-            </edge>
-            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.commande" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tarification">
-              <point x="49.5" y="-179.0" />
-              <point x="807.5" y="432.0" />
-              <point x="1023.5" y="432.0" />
-              <point x="0.0" y="58.0" />
-            </edge>
-            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.commande" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.ville">
-              <point x="16.5" y="-179.0" />
-              <point x="774.5" y="422.0" />
-              <point x="844.5" y="422.0" />
-              <point x="0.0" y="58.0" />
-            </edge>
-            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.commande" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pizza">
-              <point x="-82.5" y="-179.0" />
-              <point x="675.5" y="442.0" />
-              <point x="313.74999999999994" y="442.0" />
-              <point x="44.25" y="69.0" />
-            </edge>
-            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users_original">
-              <point x="0.0" y="-80.0" />
-              <point x="0.0" y="113.0" />
-            </edge>
-            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tags">
-              <point x="44.0" y="-69.0" />
-              <point x="234.75" y="1326.0" />
-              <point x="283.0" y="1326.0" />
-              <point x="0.0" y="69.0" />
-            </edge>
-            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.commande" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.vehicule">
-              <point x="82.5" y="-179.0" />
-              <point x="840.5" y="442.0" />
-              <point x="1220.5" y="442.0" />
-              <point x="0.0" y="80.0" />
-            </edge>
-            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pizza_ingredient" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pizza">
-              <point x="40.25" y="-35.5" />
-              <point x="192.1111111111111" y="442.0" />
-              <point x="225.24999999999994" y="442.0" />
-              <point x="-44.25" y="69.0" />
-            </edge>
-            <edge source="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.commande" target="330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pays">
-              <point x="-16.5" y="-179.0" />
-              <point x="741.5" y="422.0" />
-              <point x="671.5" y="422.0" />
-              <point x="0.0" y="58.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.7717693836978131" x="-111.02627511591965" y="725.9737248840804" />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.31128404669260695" x="2113.0" y="875.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/abonnement/Abonner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/API/Tags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/API/PostModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="85" lean-forward="true" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/API/UserRepo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/API/PostsRepo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/API/RessourceRepo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/TEACHER/articles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ServiceInjectionUtilities/DateInjection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.SCHEMA:laravel58">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.SCHEMA:laravel58</OriginalElement>
+          <nodes>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.ville</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.ingredient</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.abonnement</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tags</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.url_short</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pizza_ingredient</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.post_tag</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.eventbrote</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.password_resets</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.vehicule</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.role</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users_perso</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.tarification</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pays</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.commande</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.migrations</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.posts</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.users_original</node>
+            <node x="" y="">330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634.TABLE:laravel58.pizza</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9717693836978131" x="522.8365384615386" y="278.6487315875614" />
           <SelectedNodes />
           <Categories>
             <Category>Key columns</Category>
@@ -1077,10 +794,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+        <state relative-caret-position="89">
+          <caret line="98" column="62" selection-start-line="97" selection-start-column="61" selection-end-line="98" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="e#7#389#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web Original.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Traits/SlugRoute.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Livraison/Commande.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="10" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/TEACHER/EventBroteModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="40" column="38" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="40" selection-end-column="38" />
+          <folding>
+            <element signature="e#38#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Livraison/Ingredient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Livraison/Pays.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634/schema/laravel58/table/pizza_ingredient/index/ID">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Livraison/PizzaIngredient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Livraison/Pizza.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Livraison/Tarification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://330f38ee-8aa7-41b7-b7dd-6f0c3b2ec634/schema/laravel58/table/ville">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="d3f46294-519b-4e89-8f53-f92dd1151165">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Livraison/Vehicule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Traits/SlugCreating.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Livraison/Ville.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Livraison/Role.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
         </state>
       </provider>
     </entry>
