@@ -28,7 +28,9 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+
+    protected $redirectTo = '/post';// /home
+
 
     /**
      * Create a new controller instance.
@@ -63,10 +65,16 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+
+        /**
+         * Par défaut laravel utiliser Hash pour chiffrer vos mot de passe donc vous devez
+         * changer en bcrypt si vous voulez changez dans le model User.php
+         */
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
-            'password' => Hash::make($data['password']),
+            'password' => bcrypt($data['password']),
+            /* 'password' => Hash::make($data['password']), */
         ]);
     }
 }

@@ -13,6 +13,7 @@ return [
     |
     */
 
+
     'name' => env('APP_NAME', 'Laravel'),
 
     /*
@@ -26,7 +27,9 @@ return [
     |
     */
 
-    'env' => env('APP_ENV', 'production'),
+
+    'env' => env('APP_ENV', 'development'),//production --->pour le deploiment de projet laravel et development pour en mode
+    //local
 
     /*
     |--------------------------------------------------------------------------
@@ -39,7 +42,9 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+
+    'debug' => env('APP_DEBUG', true),// false pour le deploiement de projet laravel
+
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +57,8 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    /*'url' => env('APP_URL', 'http://localhost:80'),*/
+    'url' => env('APP_URL', 'http://laravel58'),
 
     'asset_url' => env('ASSET_URL', null),
 
@@ -80,7 +86,9 @@ return [
     |
     */
 
-    'locale' => 'en',
+
+    'locale' => 'fr',
+
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +101,9 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+
+    'fallback_locale' => 'en', // ceci est à modifier lorsqu'on creer des sites multilingue
+
 
     /*
     |--------------------------------------------------------------------------
@@ -166,14 +176,27 @@ return [
          * Package Service Providers...
          */
 
+
         /*
          * Application Service Providers...
          */
+
+        //Barryvdh\Debugbar\ServiceProvider::class,
+        //Barryvdh\Debugbar\ServiceProvider::class,
+            /*
+            * Application Service Providers...
+            */
+
+
+        /*barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,*/
+       
+
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
 
     ],
 
@@ -225,6 +248,9 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        //'Debugbar' => Barryvdh\Debugbar\Facade::class,
+
 
     ],
 
