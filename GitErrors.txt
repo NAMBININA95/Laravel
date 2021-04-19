@@ -1,0 +1,2 @@
+1-Error merge : fatal refusing to merge unrelated histories
+	solution : git pull origin master --allow-unrelated-histories
