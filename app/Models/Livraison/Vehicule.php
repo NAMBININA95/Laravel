@@ -19,4 +19,9 @@ class Vehicule extends Model
 		];//'slug'
 	public $timestamps=false;
 
+
+	public function commande(){
+		return $this->hasMany('App\Models\Livraison\Commande','ID_VEHICULE','IMMATRICULATION');
+	}
+
 }

@@ -16,4 +16,8 @@ class Ingredient extends Model
 		];//'slug'
 	public $timestamps=false;
 
+	public function pizzas(){
+		return $this->belongsToMany('App\Models\Livraison\Pizza','PizzaIngredient','ID','NOMPIZZA','id_pivot');
+	}
+
 }

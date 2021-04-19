@@ -13,4 +13,10 @@ class Ville extends Model
 		'VILLE'];//'slug'
 	public $timestamps=false;
 
+	public $incrementing=true;
+
+	public function commandes(){
+		return $this->hasMany('App\Models\Livraison\Commande','ID_VILLE','ID');
+	}
+
 }

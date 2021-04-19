@@ -16,4 +16,8 @@ class Tarification extends Model
 		];//'slug'
 	public $timestamps=false;
 
+	public function commande(){
+		return $this->hasMany('App\Models\Livraison\Commande','ID_TARIF','TAILLE');
+	}
+
 }

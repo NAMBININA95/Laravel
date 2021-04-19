@@ -12,4 +12,9 @@ class Pays extends Model
 		'PAYS',
 		];//'slug'
 	public $timestamps=false;
+	public $incrementing=true;
+
+	public function commande(){
+		return $this->hasOne('App\Models\Livraison\Commande','ID_PAYS','ID');
+	}
 }

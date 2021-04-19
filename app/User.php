@@ -66,4 +66,19 @@ class User extends Authenticatable
   /*  public function setPasswordAttribute($password){
         $this->attributes['password']=bcrypt($password);
     } */
+
+
+  /*
+   * Maintenant je vais apprendre toutes les relations */
+
+  //
+
+
+	public function role(){
+		return $this->belongsTo('App\Models\Livraison\Role','ID_ROLE','ID');
+	}
+
+	public function commandes(){
+		return $this->hasMany('App\Models\Livraison\Commande','ID_USERS','id');
+	}
 }

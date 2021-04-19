@@ -2,9 +2,9 @@
 
 namespace App\Models\Livraison;
 
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\Pivot;
 
-class PizzaIngredient extends Model
+class PizzaIngredient extends Pivot
 {
     //
 	protected $table="pizza_ingredient";
@@ -13,5 +13,6 @@ class PizzaIngredient extends Model
 		'ID',
 		'NOMPIZZA',
 		];//'slug'
+	public $incrementing=true;
 
 }

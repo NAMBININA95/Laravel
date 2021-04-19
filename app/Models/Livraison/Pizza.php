@@ -16,4 +16,12 @@ class Pizza extends Model
 		'IMAGEPIZZA',
 		];//'slug'
 	public $timestamps=false;
+
+	public function ingredients(){
+		return $this->belongsToMany('App\Models\Livraison\Ingredient','PizzaIngredient','NOMPIZZA','ID','id_pivot');
+	}
+
+	public function commandes(){
+		return $this->hasMany('App\Models\Livraison\Commande','ID_PIZZA','NOMPIZZA');
+	}
 }
